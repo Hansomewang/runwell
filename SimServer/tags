@@ -1,0 +1,1165 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BKUP_FILE	simserver.c	40;"	d	file:
+BOOL	rw_main.c	/^typedef int BOOL;$/;"	t	file:
+BUFFER_SIZE	utils/utils_http.h	16;"	d
+BYTE	utils/utils_mackey.c	/^typedef unsigned char			 BYTE;$/;"	t	file:
+CC	Makefile	/^CC=arm-hisiv100nptl-linux-gcc$/;"	m
+CHARS_PER_LINE	utils/utils_str.c	636;"	d	file:
+CHIP_3520	simserver.c	18;"	d	file:
+CONFIG_ONLINEANDSCRIPT	utils/utils_netcfg.c	17;"	d	file:
+CONFIG_ONLINE_ONLY	utils/utils_netcfg.c	15;"	d	file:
+CONFIG_SCRIPT_ONLY	utils/utils_netcfg.c	16;"	d	file:
+CONFUNIT_INITIALIZER	utils/utils_conf.h	42;"	d
+CTM	utils/longtime.h	/^} CTM, *PCTM;$/;"	t	typeref:struct:__anon6
+CharInSection	utils/utils_gbutf8.c	/^static int CharInSection[] = {$/;"	v	file:
+CodeCompairFxc	utils/utils_gbutf8.c	/^int CodeCompairFxc( const void *entry1, const void *entry2 )$/;"	f	signature:( const void *entry1, const void *entry2 )
+CodePair	utils/utils_gbutf8.c	/^static GBKUCPair *CodePair=NULL;		\/\/ UniCode to GBK array$/;"	v	file:
+ConfUnit	utils/utils_conf.h	/^} ConfUnit;$/;"	t	typeref:struct:tagConfUnit
+ConfUnit_add_item	utils/utils_conf.c	/^void ConfUnit_add_item( ConfUnit *cf, const char *key, const char *value )$/;"	f	signature:( ConfUnit *cf, const char *key, const char *value )
+ConfUnit_add_item	utils/utils_conf.h	/^extern void ConfUnit_add_item( ConfUnit *cf, const char *key, const char *value );$/;"	p	signature:( ConfUnit *cf, const char *key, const char *value )
+ConfUnit_add_subunit	utils/utils_conf.c	/^void ConfUnit_add_subunit( ConfUnit *cf, ConfUnit *subcf )$/;"	f	signature:( ConfUnit *cf, ConfUnit *subcf )
+ConfUnit_add_subunit	utils/utils_conf.h	/^extern void ConfUnit_add_subunit( ConfUnit *cf, ConfUnit *subcf );$/;"	p	signature:( ConfUnit *cf, ConfUnit *subcf )
+ConfUnit_calculate_text_size	utils/utils_conf.c	/^int ConfUnit_calculate_text_size( ConfUnit *cf )$/;"	f	signature:( ConfUnit *cf )
+ConfUnit_calculate_text_size	utils/utils_conf.h	/^extern int ConfUnit_calculate_text_size( ConfUnit *cf );$/;"	p	signature:( ConfUnit *cf )
+ConfUnit_clean	utils/utils_conf.c	/^void ConfUnit_clean( ConfUnit *cf )$/;"	f	signature:( ConfUnit *cf )
+ConfUnit_clean	utils/utils_conf.h	/^extern void ConfUnit_clean( ConfUnit *cf );		\/* remove all elements except cf->key *\/$/;"	p	signature:( ConfUnit *cf )
+ConfUnit_delete	utils/utils_conf.c	/^void ConfUnit_delete( ConfUnit *cf )$/;"	f	signature:( ConfUnit *cf )
+ConfUnit_delete	utils/utils_conf.h	/^extern void ConfUnit_delete( ConfUnit *cf );		\/* remove all elemnets and free cf *\/$/;"	p	signature:( ConfUnit *cf )
+ConfUnit_delete_item	utils/utils_conf.c	/^int ConfUnit_delete_item( ConfUnit *cf, const char *key )$/;"	f	signature:( ConfUnit *cf, const char *key )
+ConfUnit_delete_item	utils/utils_conf.h	/^extern int ConfUnit_delete_item( ConfUnit *cf, const char *key );$/;"	p	signature:( ConfUnit *cf, const char *key )
+ConfUnit_delete_subunit	utils/utils_conf.c	/^int ConfUnit_delete_subunit( ConfUnit *cf, const char *key )$/;"	f	signature:( ConfUnit *cf, const char *key )
+ConfUnit_delete_subunit	utils/utils_conf.h	/^extern int ConfUnit_delete_subunit( ConfUnit *cf, const char *key );$/;"	p	signature:( ConfUnit *cf, const char *key )
+ConfUnit_dump	utils/utils_conf.c	/^void ConfUnit_dump( ConfUnit *cf, int deepth, FILE *fp )$/;"	f	signature:( ConfUnit *cf, int deepth, FILE *fp )
+ConfUnit_dump	utils/utils_conf.h	/^extern void ConfUnit_dump( ConfUnit *cf, int deepth, FILE *fp );$/;"	p	signature:( ConfUnit *cf, int deepth, FILE *fp )
+ConfUnit_get_item	utils/utils_conf.c	/^const char* ConfUnit_get_item( ConfUnit *cf, const char *key )$/;"	f	signature:( ConfUnit *cf, const char *key )
+ConfUnit_get_item	utils/utils_conf.h	/^extern const char* ConfUnit_get_item( ConfUnit *cf, const char *key );$/;"	p	signature:( ConfUnit *cf, const char *key )
+ConfUnit_get_item_as_bool	utils/utils_conf.c	/^int ConfUnit_get_item_as_bool( ConfUnit *cf, const char *key, int defval )$/;"	f	signature:( ConfUnit *cf, const char *key, int defval )
+ConfUnit_get_item_as_bool	utils/utils_conf.h	/^extern int ConfUnit_get_item_as_bool( ConfUnit *cf, const char *key, int defval );$/;"	p	signature:( ConfUnit *cf, const char *key, int defval )
+ConfUnit_get_item_as_double	utils/utils_conf.c	/^double ConfUnit_get_item_as_double( ConfUnit *cf, const char *key, double defval )$/;"	f	signature:( ConfUnit *cf, const char *key, double defval )
+ConfUnit_get_item_as_double	utils/utils_conf.h	/^extern double ConfUnit_get_item_as_double( ConfUnit *cf, const char *key, double defval );$/;"	p	signature:( ConfUnit *cf, const char *key, double defval )
+ConfUnit_get_item_as_enum	utils/utils_conf.c	/^int ConfUnit_get_item_as_enum( ConfUnit *cf, const char *key, int defval, const char **EnumString )$/;"	f	signature:( ConfUnit *cf, const char *key, int defval, const char **EnumString )
+ConfUnit_get_item_as_enum	utils/utils_conf.h	/^extern int ConfUnit_get_item_as_enum( ConfUnit *cf, const char *key, int defval, const char **EnumString );$/;"	p	signature:( ConfUnit *cf, const char *key, int defval, const char **EnumString )
+ConfUnit_get_item_as_int	utils/utils_conf.c	/^int ConfUnit_get_item_as_int( ConfUnit *cf, const char *key, int defval )$/;"	f	signature:( ConfUnit *cf, const char *key, int defval )
+ConfUnit_get_item_as_int	utils/utils_conf.h	/^extern int ConfUnit_get_item_as_int( ConfUnit *cf, const char *key, int defval );$/;"	p	signature:( ConfUnit *cf, const char *key, int defval )
+ConfUnit_get_item_as_string	utils/utils_conf.h	54;"	d
+ConfUnit_get_item_as_string_safe	utils/utils_conf.h	55;"	d
+ConfUnit_get_item_safe	utils/utils_conf.c	/^const char* ConfUnit_get_item_safe( ConfUnit *cf, const char *key, const char *def_value )$/;"	f	signature:( ConfUnit *cf, const char *key, const char *def_value )
+ConfUnit_get_item_safe	utils/utils_conf.h	/^extern const char* ConfUnit_get_item_safe( ConfUnit *cf, const char *key, const char *def_value );$/;"	p	signature:( ConfUnit *cf, const char *key, const char *def_value )
+ConfUnit_get_subunit	utils/utils_conf.c	/^ConfUnit* ConfUnit_get_subunit( ConfUnit *cf, const char *key )$/;"	f	signature:( ConfUnit *cf, const char *key )
+ConfUnit_get_subunit	utils/utils_conf.h	/^extern ConfUnit* ConfUnit_get_subunit( ConfUnit *cf, const char *key );$/;"	p	signature:( ConfUnit *cf, const char *key )
+ConfUnit_get_text	utils/utils_conf.c	/^char* ConfUnit_get_text( ConfUnit *cf )$/;"	f	signature:( ConfUnit *cf )
+ConfUnit_get_text	utils/utils_conf.h	/^extern char* ConfUnit_get_text( ConfUnit *cf );$/;"	p	signature:( ConfUnit *cf )
+ConfUnit_initialize	utils/utils_conf.c	/^void ConfUnit_initialize( ConfUnit *cf, const char *key )$/;"	f	signature:( ConfUnit *cf, const char *key )
+ConfUnit_initialize	utils/utils_conf.h	/^extern void ConfUnit_initialize( ConfUnit *cf, const char *key );$/;"	p	signature:( ConfUnit *cf, const char *key )
+ConfUnit_item_list	utils/utils_conf.c	/^char **ConfUnit_item_list( ConfUnit *conf )$/;"	f	signature:( ConfUnit *conf )
+ConfUnit_item_list	utils/utils_conf.h	/^extern char **ConfUnit_item_list( ConfUnit *conf );$/;"	p	signature:( ConfUnit *conf )
+ConfUnit_itemvalue_list	utils/utils_conf.c	/^char **ConfUnit_itemvalue_list( ConfUnit *conf )$/;"	f	signature:( ConfUnit *conf )
+ConfUnit_itemvalue_list	utils/utils_conf.h	/^extern char **ConfUnit_itemvalue_list( ConfUnit *conf );$/;"	p	signature:( ConfUnit *conf )
+ConfUnit_load_from	utils/utils_conf.c	/^int ConfUnit_load_from( ConfUnit *cf, const char *filename )$/;"	f	signature:( ConfUnit *cf, const char *filename )
+ConfUnit_load_from	utils/utils_conf.h	/^extern int ConfUnit_load_from( ConfUnit *cf, const char* filename );$/;"	p	signature:( ConfUnit *cf, const char* filename )
+ConfUnit_new	utils/utils_conf.c	/^ConfUnit* ConfUnit_new( const char *key )$/;"	f	signature:( const char *key )
+ConfUnit_new	utils/utils_conf.h	/^extern ConfUnit* ConfUnit_new( const char *key );$/;"	p	signature:( const char *key )
+ConfUnit_parse_text	utils/utils_conf.c	/^const char* ConfUnit_parse_text( ConfUnit *cf, const char* text )$/;"	f	signature:( ConfUnit *cf, const char* text )
+ConfUnit_parse_text	utils/utils_conf.h	/^extern const char* ConfUnit_parse_text( ConfUnit *cf, const char* text );$/;"	p	signature:( ConfUnit *cf, const char* text )
+ConfUnit_save_to	utils/utils_conf.c	/^int ConfUnit_save_to( ConfUnit *cf, const char *filename )$/;"	f	signature:( ConfUnit *cf, const char *filename )
+ConfUnit_save_to	utils/utils_conf.h	/^extern int ConfUnit_save_to( ConfUnit *cf, const char* filename );$/;"	p	signature:( ConfUnit *cf, const char* filename )
+ConfUnit_save_to_fp	utils/utils_conf.c	/^void ConfUnit_save_to_fp( ConfUnit *cf, FILE *fp )$/;"	f	signature:( ConfUnit *cf, FILE *fp )
+ConfUnit_save_to_fp	utils/utils_conf.h	/^extern void ConfUnit_save_to_fp( ConfUnit *cf, FILE *fp );$/;"	p	signature:( ConfUnit *cf, FILE *fp )
+ConfUnit_set_item	utils/utils_conf.c	/^void ConfUnit_set_item( ConfUnit *cf, const char *key, const char *value )$/;"	f	signature:( ConfUnit *cf, const char *key, const char *value )
+ConfUnit_set_item	utils/utils_conf.h	/^extern void ConfUnit_set_item( ConfUnit *cf, const char *key, const char *value );$/;"	p	signature:( ConfUnit *cf, const char *key, const char *value )
+ConfUnit_set_item_as_enum	utils/utils_conf.c	/^void ConfUnit_set_item_as_enum( ConfUnit *cf, const char *key, int value, const char **EnumString )$/;"	f	signature:( ConfUnit *cf, const char *key, int value, const char **EnumString )
+ConfUnit_set_item_as_enum	utils/utils_conf.h	/^extern void ConfUnit_set_item_as_enum( ConfUnit *cf, const char *key, int value, const char **EnumString );$/;"	p	signature:( ConfUnit *cf, const char *key, int value, const char **EnumString )
+ConfUnit_set_item_as_int	utils/utils_conf.h	72;"	d
+ConfUnit_set_item_as_string	utils/utils_conf.h	71;"	d
+ConfUnit_sort	utils/utils_conf.c	/^void ConfUnit_sort( ConfUnit *conf )$/;"	f	signature:( ConfUnit *conf )
+ConfUnit_sort	utils/utils_conf.h	/^extern void ConfUnit_sort( ConfUnit *conf );$/;"	p	signature:( ConfUnit *conf )
+ConfUnit_sort_disable	utils/utils_conf.h	/^extern void ConfUnit_sort_disable( ConfUnit *conf );	\/\/ disable the sort (default)$/;"	p	signature:( ConfUnit *conf )
+ConfUnit_sort_enable	utils/utils_conf.h	/^extern void ConfUnit_sort_enable( ConfUnit *conf );	\/\/ enable the sort (shall be enabled before load element into it)$/;"	p	signature:( ConfUnit *conf )
+ConfUnit_subunit_list	utils/utils_conf.c	/^char **ConfUnit_subunit_list( ConfUnit *conf )$/;"	f	signature:( ConfUnit *conf )
+ConfUnit_subunit_list	utils/utils_conf.h	/^extern char **ConfUnit_subunit_list( ConfUnit *conf );$/;"	p	signature:( ConfUnit *conf )
+ConfUnit_terminate	utils/utils_conf.c	/^void ConfUnit_terminate( ConfUnit *cf )$/;"	f	signature:( ConfUnit *cf )
+ConfUnit_terminate	utils/utils_conf.h	/^extern void ConfUnit_terminate( ConfUnit *cf );		\/* remove all elements but keep cf *\/$/;"	p	signature:( ConfUnit *cf )
+ConfUnit_to_text	utils/utils_conf.c	/^int ConfUnit_to_text( ConfUnit *cf, char * buffer, int buf_size )$/;"	f	signature:( ConfUnit *cf, char * buffer, int buf_size )
+ConfUnit_to_text	utils/utils_conf.h	/^extern int ConfUnit_to_text( ConfUnit *cf, char * buffer, int buf_size );$/;"	p	signature:( ConfUnit *cf, char * buffer, int buf_size )
+DBG_PRINTF	utils/dbg_printf.h	34;"	d
+DEFAUTL_PROCESS_PATH	dpchwork.c	108;"	d	file:
+DEFAUTL_PROCESS_PATH	simserver.c	392;"	d	file:
+DEF_ASCIIFONT	rw_main.c	58;"	d	file:
+DEF_FONTNAME	rw_main.c	57;"	d	file:
+DEV_RTC	utils/rtcsync.c	27;"	d	file:
+DEV_RTC	utils/rtcsync.c	46;"	d	file:
+DEV_RTC	utils/rtcsync.c	61;"	d	file:
+DIR_SHMKEY	rw_main.c	55;"	d	file:
+DIR_TMPFILE	rw_main.c	54;"	d	file:
+DT_FMT_CENTRY	utils/longtime.h	31;"	d
+DT_FMT_DATE	utils/longtime.h	28;"	d
+DT_FMT_DTIM	utils/longtime.h	35;"	d
+DT_FMT_LONG	utils/longtime.h	33;"	d
+DT_FMT_MSEC	utils/longtime.h	30;"	d
+DT_FMT_NOYEAR	utils/longtime.h	32;"	d
+DT_FMT_RAW	utils/longtime.h	37;"	d
+DT_FMT_SHORT	utils/longtime.h	34;"	d
+DT_FMT_TIME	utils/longtime.h	29;"	d
+DT_FMT_TMSEC	utils/longtime.h	36;"	d
+ENABLE_DHCP	dpchwork.c	182;"	d	file:
+EN_PRSNLVL	utils/dbg_printf.c	37;"	d	file:
+EncodeMACCode	utils/utils_mackey.c	/^void EncodeMACCode( BYTE *code )$/;"	f	signature:( BYTE *code )
+EncodeMACCode	utils/utils_mackey.h	/^void EncodeMACCode( unsigned char *code );$/;"	p	signature:( unsigned char *code )
+FAILURE	rw_main.c	78;"	d	file:
+FALSE	rw_main.c	76;"	d	file:
+FILE_NETSCRIP_NEW	utils/utils_netcfg.c	29;"	d	file:
+FILE_NETSCRIP_OLD	utils/utils_netcfg.c	28;"	d	file:
+GBK1_BEGIN	utils/utils_gbutf8.c	13;"	d	file:
+GBK1_END	utils/utils_gbutf8.c	14;"	d	file:
+GBK1_LBB	utils/utils_gbutf8.c	15;"	d	file:
+GBK1_LBE	utils/utils_gbutf8.c	16;"	d	file:
+GBK2_BEGIN	utils/utils_gbutf8.c	18;"	d	file:
+GBK2_END	utils/utils_gbutf8.c	19;"	d	file:
+GBK2_LBB	utils/utils_gbutf8.c	20;"	d	file:
+GBK2_LBE	utils/utils_gbutf8.c	21;"	d	file:
+GBK3_BEGIN	utils/utils_gbutf8.c	23;"	d	file:
+GBK3_END	utils/utils_gbutf8.c	24;"	d	file:
+GBK3_LBB	utils/utils_gbutf8.c	25;"	d	file:
+GBK3_LBE	utils/utils_gbutf8.c	26;"	d	file:
+GBK4_BEGIN	utils/utils_gbutf8.c	28;"	d	file:
+GBK4_END	utils/utils_gbutf8.c	29;"	d	file:
+GBK4_LBB	utils/utils_gbutf8.c	30;"	d	file:
+GBK4_LBE	utils/utils_gbutf8.c	31;"	d	file:
+GBKTOUC_TBL	utils/utils_gbutf8.c	10;"	d	file:
+GBKToUTF8	utils/utils_gbutf8.c	/^int GBKToUTF8(const char* pmbcGB, int nGBLen, char *utf8)$/;"	f	signature:(const char* pmbcGB, int nGBLen, char *utf8)
+GBKToUTF8	utils/utils_gbutf8.h	/^int GBKToUTF8(const char* pmbcGBK, int nGBKLen, char *utf8);$/;"	p	signature:(const char* pmbcGBK, int nGBKLen, char *utf8)
+GBKUCPair	utils/utils_gbutf8.c	/^} GBKUCPair;$/;"	t	typeref:struct:__anon8	file:
+GBKtoUNICODE	utils/utils_gbutf8.c	/^wchar_t GBKtoUNICODE(const char *GBKCode)  $/;"	f	signature:(const char *GBKCode)
+GBKtoUNICODE	utils/utils_gbutf8.h	/^wchar_t GBKtoUNICODE(const char *GBKCode);$/;"	p	signature:(const char *GBKCode)
+GetMACCode	utils/utils_mackey.c	/^void GetMACCode( BYTE *ifaddr, BYTE *MACCode, int nType )$/;"	f	signature:( BYTE *ifaddr, BYTE *MACCode, int nType )
+GetMACCode	utils/utils_mackey.h	/^void GetMACCode( unsigned char *ifaddr, unsigned char *MACCode, int nType );$/;"	p	signature:( unsigned char *ifaddr, unsigned char *MACCode, int nType )
+GetOffset	utils/longtime.c	/^inline LONGLONG GetOffset() {$/;"	f
+HEAD_DIR	Makefile	/^HEAD_DIR=-I..\/utils -g -Wall$/;"	m
+HI_BOOL	utils/utils_str.c	/^} HI_BOOL;$/;"	t	typeref:enum:__anon3	file:
+HI_FALSE	utils/utils_str.c	/^    HI_FALSE = 0,$/;"	e	enum:__anon3	file:
+HI_TRUE	utils/utils_str.c	/^    HI_TRUE  = 1,$/;"	e	enum:__anon3	file:
+HTTPC_306_NOTUSED	utils/http_code.h	26;"	d
+HTTPC_ACCEPTED	utils/http_code.h	11;"	d
+HTTPC_BAD_GATEWAY	utils/http_code.h	52;"	d
+HTTPC_BAD_REQUEST	utils/http_code.h	30;"	d
+HTTPC_CONFLICT	utils/http_code.h	39;"	d
+HTTPC_CONTINUE	utils/http_code.h	5;"	d
+HTTPC_CREATED	utils/http_code.h	10;"	d
+HTTPC_EXPECTATION_FAILED	utils/http_code.h	47;"	d
+HTTPC_FORBIDDEN	utils/http_code.h	33;"	d
+HTTPC_FOUND	utils/http_code.h	22;"	d
+HTTPC_GATEWAY_TIMEOUT	utils/http_code.h	54;"	d
+HTTPC_GONE	utils/http_code.h	40;"	d
+HTTPC_INTERNAL_ERROR	utils/http_code.h	50;"	d
+HTTPC_LENGTH_REQUIRED	utils/http_code.h	41;"	d
+HTTPC_LIVESTREAM_CONTENT	utils/http_code.h	17;"	d
+HTTPC_MEDIA_UNSUPPORTED	utils/http_code.h	45;"	d
+HTTPC_METHOD_NOT_ALLOWED	utils/http_code.h	35;"	d
+HTTPC_MOVED	utils/http_code.h	21;"	d
+HTTPC_MULTIPLE_CHOICES	utils/http_code.h	20;"	d
+HTTPC_NEED_PROXY_AUTHENTICATION	utils/http_code.h	37;"	d
+HTTPC_NON_AUTHORITATIVE	utils/http_code.h	12;"	d
+HTTPC_NOT_ACCEPTABLE	utils/http_code.h	36;"	d
+HTTPC_NOT_FOUND	utils/http_code.h	34;"	d
+HTTPC_NOT_IMPLEMENTED	utils/http_code.h	51;"	d
+HTTPC_NOT_MODIFIED	utils/http_code.h	24;"	d
+HTTPC_NO_CONTENT	utils/http_code.h	13;"	d
+HTTPC_OK	utils/http_code.h	9;"	d
+HTTPC_OUT_OF_RANGE	utils/http_code.h	46;"	d
+HTTPC_OUT_OF_SERVICE	utils/http_code.h	53;"	d
+HTTPC_PARTIAL_CONTENT	utils/http_code.h	15;"	d
+HTTPC_PAYMENT_REQUIRED	utils/http_code.h	32;"	d
+HTTPC_PRECONDITION_FAILED	utils/http_code.h	42;"	d
+HTTPC_REDIRECT_TEMPORARY	utils/http_code.h	27;"	d
+HTTPC_REQUEST_TIMEOUT	utils/http_code.h	38;"	d
+HTTPC_RESET_CONTENT	utils/http_code.h	14;"	d
+HTTPC_SEE_OTHER	utils/http_code.h	23;"	d
+HTTPC_SWITCHING_PROCTOCOL	utils/http_code.h	6;"	d
+HTTPC_TOO_LARGE	utils/http_code.h	43;"	d
+HTTPC_UNAUTHORIZED	utils/http_code.h	31;"	d
+HTTPC_URI_TOO_LONG	utils/http_code.h	44;"	d
+HTTPC_USE_PROXY	utils/http_code.h	25;"	d
+HTTPC_VERSION_NOT_SUPPORTED	utils/http_code.h	55;"	d
+HTTP_CONNECT	utils/utils_http.h	/^	HTTP_CONNECT,$/;"	e	enum:__anon7
+HTTP_DELETE	utils/utils_http.h	/^	HTTP_DELETE,$/;"	e	enum:__anon7
+HTTP_ERROR	utils/utils_http.h	/^	HTTP_ERROR	= -1,$/;"	e	enum:__anon7
+HTTP_GET	utils/utils_http.h	/^	HTTP_GET,$/;"	e	enum:__anon7
+HTTP_HEAD	utils/utils_http.h	/^	HTTP_HEAD,$/;"	e	enum:__anon7
+HTTP_LINK	utils/utils_http.h	/^	HTTP_LINK,$/;"	e	enum:__anon7
+HTTP_METHODMAX	utils/utils_http.h	/^	HTTP_METHODMAX,$/;"	e	enum:__anon7
+HTTP_NONE	utils/utils_http.h	/^	HTTP_NONE	= 0,$/;"	e	enum:__anon7
+HTTP_POST	utils/utils_http.h	/^	HTTP_POST,$/;"	e	enum:__anon7
+HTTP_PUT	utils/utils_http.h	/^	HTTP_PUT,$/;"	e	enum:__anon7
+HTTP_TRACE	utils/utils_http.h	/^	HTTP_TRACE,$/;"	e	enum:__anon7
+HTTP_UNLINK	utils/utils_http.h	/^	HTTP_UNLINK,$/;"	e	enum:__anon7
+HUGEBUFFER_SIZE	utils/utils_http.h	18;"	d
+HttpConnection	utils/utils_http.c	/^} HttpConnection;$/;"	t	typeref:struct:tagHttpConnection	file:
+INET_ADDRSTRLEN	utils/utils_net.h	34;"	d
+INET_ATON	utils/utils_net.c	/^unsigned long INET_ATON( const char *ipstr )$/;"	f	signature:( const char *ipstr )
+INET_ATON	utils/utils_net.h	/^extern unsigned long INET_ATON( const char *ipstr );$/;"	p	signature:( const char *ipstr )
+INET_NTOA	utils/utils_net.c	/^const char *INET_NTOA( unsigned long ip )$/;"	f	signature:( unsigned long ip )
+INET_NTOA	utils/utils_net.h	/^extern const char *INET_NTOA( unsigned long ip );$/;"	p	signature:( unsigned long ip )
+INET_NTOA2	utils/utils_net.c	/^const char *INET_NTOA2( unsigned long ip, char *numdot )$/;"	f	signature:( unsigned long ip, char *numdot )
+INET_NTOA2	utils/utils_net.h	/^extern const char *INET_NTOA2( unsigned long ip, char *numdot );$/;"	p	signature:( unsigned long ip, char *numdot )
+INVALID_SOCKET	utils/utils_net.h	36;"	d
+IN_ADDR	utils/utils_net.h	/^typedef struct in_addr  IN_ADDR;		\/\/ sin_addr member of SOCKADDR_IN$/;"	t	typeref:struct:in_addr
+IP_to_str	utils/utils_net.h	156;"	d
+IntStrPair	utils/utils_http.c	/^} IntStrPair;$/;"	t	typeref:struct:tagIntStrPair	file:
+LARGEBUFFER_SIZE	utils/utils_http.h	17;"	d
+LD_LIB	Makefile	/^LD_LIB=-L. -lpthread -lrt$/;"	m
+LOCAL_HOST	utils/utils_net.c	47;"	d	file:
+LOG_FILE	simserver.c	39;"	d	file:
+LONG_TIME_FORMAT_SIZE	utils/longtime.h	27;"	d
+LPCTSTR	utils/utils_mackey.c	/^typedef const char *		   LPCTSTR;$/;"	t	file:
+LPSTR	utils/utils_mackey.c	/^typedef char *						 LPSTR;$/;"	t	file:
+LoadCodeTable	utils/utils_gbutf8.c	/^int LoadCodeTable()$/;"	f
+LoadCodeTable	utils/utils_gbutf8.h	/^int LoadCodeTable();		\/\/ load GBK, UniCode table. $/;"	p	signature:()
+MAJOR_VERSION	Makefile	/^MAJOR_VERSION=0$/;"	m
+MAX_CONFUNIT_TEXT	utils/utils_conf.h	32;"	d
+MAX_EXTENSION	utils/utils_file.c	261;"	d	file:
+MAX_FILE2DELETE	utils/utils_file.c	262;"	d	file:
+MAX_LOGSIZE	simserver.c	38;"	d	file:
+MAX_NO_PACKETS	simpleping.c	24;"	d	file:
+MAX_STRING	utils/utils_conf.c	13;"	d	file:
+MAX_WAIT_TIME	simpleping.c	23;"	d	file:
+MSEC_PER_SEC	utils/utils_net.h	19;"	d
+MainSignal	dpchwork.c	/^static void MainSignal()$/;"	f	file:
+MainWait	dpchwork.c	/^static int MainWait( int tout ) $/;"	f	file:	signature:( int tout )
+Monitor	utils/dbg_printf.c	/^} Monitor;$/;"	t	typeref:struct:tagMonitor	file:
+Monitor_list	utils/dbg_printf.c	/^static PtrList Monitor_list = PTRLIST_INITIALIZER;$/;"	v	file:
+NAME	Makefile	/^NAME= Sneaky Weasel$/;"	m
+NET_CONFIG_MODE	utils/utils_netcfg.c	19;"	d	file:
+NET_CONFIG_S	utils/utils_netcfg.h	/^} NET_CONFIG_S;	$/;"	t	typeref:struct:__anon5
+NET_TIMEDOUT_MSEC	utils/utils_net.c	/^static	long	NET_TIMEDOUT_MSEC = 60000;		\/* 60 sec == 1 min *\/$/;"	v	file:
+NUMSEM	utils/utils_shm.c	31;"	d	file:
+NowStatus	simserver.c	/^static SIMFSM_E NowStatus()$/;"	f	file:
+OBJ	Makefile	/^OBJ=$(SRC:%.c=%.o)$/;"	m
+Output_list	utils/dbg_printf.c	/^static PtrList Output_list = PTRLIST_INITIALIZER;$/;"	v	file:
+PACKET_SIZE	simpleping.c	22;"	d	file:
+PAGE_SIZE	rw_main.c	114;"	d	file:
+PAGE_SIZE	simserver.c	215;"	d	file:
+PAGE_SIZE_MASK	simserver.c	216;"	d	file:
+PATCHLEVEL	Makefile	/^PATCHLEVEL=0$/;"	m
+PATH_MAX	utils/utils_http.c	23;"	d	file:
+PCTM	utils/longtime.h	/^} CTM, *PCTM;$/;"	t	typeref:struct:__anon6
+PID_TMP_FILE	simserver.c	374;"	d	file:
+PLATFORM	Makefile	/^PLATFORM=CHIP_3520$/;"	m
+POSITION	utils/utils_ptrlist.h	/^typedef PtrNode* POSITION;$/;"	t
+POSITION	utils/utils_ptrlist.h	27;"	d
+PRINTF	utils/dbg_printf.h	27;"	d
+PRINTF1	utils/dbg_printf.h	28;"	d
+PRINTF2	utils/dbg_printf.h	29;"	d
+PRINTF3	utils/dbg_printf.h	30;"	d
+PRINTF4	utils/dbg_printf.h	31;"	d
+PRINTF5	utils/dbg_printf.h	32;"	d
+PROGRAM_AUTHOR	rw_main.c	74;"	d	file:
+PROGRAM_BINVER	rw_main.c	64;"	d	file:
+PROGRAM_BUILT	rw_main.c	66;"	d	file:
+PROGRAM_BUILT	rw_main.c	69;"	d	file:
+PROGRAM_NAME	rw_main.c	62;"	d	file:
+PROGRAM_OWNER	rw_main.c	73;"	d	file:
+PROGRAM_SHORTNAME	rw_main.c	61;"	d	file:
+PROGRAM_VERSION	rw_main.c	63;"	d	file:
+PSHMContext	utils/utils_shm.h	/^} SHMContext, *PSHMContext;$/;"	t	typeref:struct:tagShmContext
+PTRLIST_INITIALIZER	utils/utils_ptrlist.h	43;"	d
+PTRNODE_INITIALIZER	utils/utils_ptrlist.h	35;"	d
+PtrList	utils/utils_ptrlist.h	/^} PtrList;$/;"	t	typeref:struct:tagPtrList
+PtrList_append	utils/utils_ptrlist.h	76;"	d
+PtrList_delete	utils/utils_ptrlist.c	/^void PtrList_delete(PtrList *list, POSITION node)$/;"	f	signature:(PtrList *list, POSITION node)
+PtrList_delete	utils/utils_ptrlist.h	/^extern void PtrList_delete(PtrList *list, POSITION node);$/;"	p	signature:(PtrList *list, POSITION node)
+PtrList_delete_all	utils/utils_ptrlist.c	/^void PtrList_delete_all( PtrList *list )$/;"	f	signature:( PtrList *list )
+PtrList_delete_all	utils/utils_ptrlist.h	/^extern void PtrList_delete_all(PtrList *list);$/;"	p	signature:(PtrList *list)
+PtrList_delete_head	utils/utils_ptrlist.h	90;"	d
+PtrList_delete_rear	utils/utils_ptrlist.h	91;"	d
+PtrList_find	utils/utils_ptrlist.c	/^POSITION PtrList_find( PtrList *list, void *ptr )$/;"	f	signature:( PtrList *list, void *ptr )
+PtrList_find	utils/utils_ptrlist.h	/^extern POSITION PtrList_find(PtrList *list, void *ptr);$/;"	p	signature:(PtrList *list, void *ptr)
+PtrList_find_string	utils/utils_ptrlist.h	115;"	d
+PtrList_get	utils/utils_ptrlist.h	52;"	d
+PtrList_get_all	utils/utils_ptrlist.c	/^int PtrList_get_all(PtrList *list, void* *buf, int buf_size)$/;"	f	signature:(PtrList *list, void* *buf, int buf_size)
+PtrList_get_all	utils/utils_ptrlist.h	/^extern int PtrList_get_all(PtrList *list, void* *buf, int buf_size);$/;"	p	signature:(PtrList *list, void* *buf, int buf_size)
+PtrList_get_count	utils/utils_ptrlist.h	54;"	d
+PtrList_get_head	utils/utils_ptrlist.h	57;"	d
+PtrList_get_rear	utils/utils_ptrlist.h	58;"	d
+PtrList_initialize	utils/utils_ptrlist.c	/^void PtrList_initialize( PtrList *list )$/;"	f	signature:( PtrList *list )
+PtrList_initialize	utils/utils_ptrlist.h	/^extern void PtrList_initialize( PtrList *list );$/;"	p	signature:( PtrList *list )
+PtrList_insert_1to9	utils/utils_ptrlist.c	/^POSITION PtrList_insert_1to9(PtrList *list, void *ptr)$/;"	f	signature:(PtrList *list, void *ptr)
+PtrList_insert_1to9	utils/utils_ptrlist.h	/^extern POSITION PtrList_insert_1to9(PtrList *list, void *ptr);$/;"	p	signature:(PtrList *list, void *ptr)
+PtrList_insert_9to1	utils/utils_ptrlist.c	/^POSITION PtrList_insert_9to1(PtrList *list, void *ptr)$/;"	f	signature:(PtrList *list, void *ptr)
+PtrList_insert_9to1	utils/utils_ptrlist.h	/^extern POSITION PtrList_insert_9to1(PtrList *list, void *ptr);$/;"	p	signature:(PtrList *list, void *ptr)
+PtrList_insert_after	utils/utils_ptrlist.c	/^POSITION PtrList_insert_after(PtrList *list, POSITION node, void *ptr)$/;"	f	signature:(PtrList *list, POSITION node, void *ptr)
+PtrList_insert_after	utils/utils_ptrlist.h	/^extern POSITION PtrList_insert_after(PtrList *list, POSITION node, void *ptr);$/;"	p	signature:(PtrList *list, POSITION node, void *ptr)
+PtrList_insert_before	utils/utils_ptrlist.c	/^POSITION PtrList_insert_before(PtrList *list, POSITION node, void *ptr)$/;"	f	signature:(PtrList *list, POSITION node, void *ptr)
+PtrList_insert_before	utils/utils_ptrlist.h	/^extern POSITION PtrList_insert_before(PtrList *list, POSITION node, void *ptr);$/;"	p	signature:(PtrList *list, POSITION node, void *ptr)
+PtrList_insert_string_atoz	utils/utils_ptrlist.h	116;"	d
+PtrList_insert_string_ztoa	utils/utils_ptrlist.h	117;"	d
+PtrList_new	utils/utils_ptrlist.c	/^PtrList* PtrList_new( void )$/;"	f	signature:( void )
+PtrList_new	utils/utils_ptrlist.h	/^extern PtrList* PtrList_new( void );$/;"	p	signature:( void )
+PtrList_prepend	utils/utils_ptrlist.h	77;"	d
+PtrList_remove	utils/utils_ptrlist.c	/^void* PtrList_remove(PtrList *list, POSITION node)$/;"	f	signature:(PtrList *list, POSITION node)
+PtrList_remove	utils/utils_ptrlist.h	/^extern void* PtrList_remove(PtrList *list, POSITION node);$/;"	p	signature:(PtrList *list, POSITION node)
+PtrList_remove_all	utils/utils_ptrlist.c	/^void PtrList_remove_all( PtrList *list )$/;"	f	signature:( PtrList *list )
+PtrList_remove_all	utils/utils_ptrlist.h	/^extern void PtrList_remove_all(PtrList *list);$/;"	p	signature:(PtrList *list)
+PtrList_remove_head	utils/utils_ptrlist.h	84;"	d
+PtrList_remove_rear	utils/utils_ptrlist.h	85;"	d
+PtrList_set_compare	utils/utils_ptrlist.c	/^void PtrList_set_compare( PtrList *list, __compar_fn_t cmpfunc )$/;"	f	signature:( PtrList *list, __compar_fn_t cmpfunc )
+PtrList_set_compare	utils/utils_ptrlist.h	/^extern void PtrList_set_compare( PtrList *list, __compar_fn_t cmpfunc );$/;"	p	signature:( PtrList *list, __compar_fn_t cmpfunc )
+PtrList_terminate	utils/utils_ptrlist.c	/^void PtrList_terminate( PtrList *list )$/;"	f	signature:( PtrList *list )
+PtrList_terminate	utils/utils_ptrlist.h	/^extern void PtrList_terminate( PtrList *list );$/;"	p	signature:( PtrList *list )
+PtrNode	utils/utils_ptrlist.h	/^typedef struct tagPtrNode PtrNode;$/;"	t	typeref:struct:tagPtrNode
+PtrNode_backward	utils/utils_ptrlist.c	/^POSITION PtrNode_backward(POSITION pos, int step)$/;"	f	signature:(POSITION pos, int step)
+PtrNode_backward	utils/utils_ptrlist.h	/^extern POSITION PtrNode_backward(POSITION pos, int step);$/;"	p	signature:(POSITION pos, int step)
+PtrNode_forward	utils/utils_ptrlist.c	/^POSITION PtrNode_forward(POSITION pos, int step)$/;"	f	signature:(POSITION pos, int step)
+PtrNode_forward	utils/utils_ptrlist.h	/^extern POSITION PtrNode_forward(POSITION pos, int step);$/;"	p	signature:(POSITION pos, int step)
+PtrNode_get	utils/utils_ptrlist.h	67;"	d
+PtrNode_get_next	utils/utils_ptrlist.h	65;"	d
+PtrNode_get_prev	utils/utils_ptrlist.h	66;"	d
+PtrStack	utils/utils_ptrlist.h	/^typedef PtrList PtrStack;$/;"	t
+PtrStack_peek	utils/utils_ptrlist.h	100;"	d
+PtrStack_pop	utils/utils_ptrlist.h	102;"	d
+PtrStack_push	utils/utils_ptrlist.h	101;"	d
+RTC_GET_TIME	utils/rtcsync.c	26;"	d	file:
+RTC_GET_TIME	utils/rtcsync.c	45;"	d	file:
+RTC_GET_TIME	utils/rtcsync.c	63;"	d	file:
+RTC_SET_TIME	utils/rtcsync.c	25;"	d	file:
+RTC_SET_TIME	utils/rtcsync.c	44;"	d	file:
+RTC_SET_TIME	utils/rtcsync.c	62;"	d	file:
+RTC_T	utils/rtcsync.c	/^typedef struct RTC_T$/;"	s	file:
+RTC_T::hour	utils/rtcsync.c	/^      TIME_UNIT  hour;$/;"	m	struct:RTC_T	file:	access:public
+RTC_T::mday	utils/rtcsync.c	/^      TIME_UNIT  mday;$/;"	m	struct:RTC_T	file:	access:public
+RTC_T::min	utils/rtcsync.c	/^      TIME_UNIT  min;$/;"	m	struct:RTC_T	file:	access:public
+RTC_T::month	utils/rtcsync.c	/^      TIME_UNIT  month;$/;"	m	struct:RTC_T	file:	access:public
+RTC_T::sec	utils/rtcsync.c	/^      TIME_UNIT  sec;$/;"	m	struct:RTC_T	file:	access:public
+RTC_T::yday	utils/rtcsync.c	/^      TIME_UNIT  yday;$/;"	m	struct:RTC_T	file:	access:public
+RTC_T::year	utils/rtcsync.c	/^      TIME_UNIT  year;$/;"	m	struct:RTC_T	file:	access:public
+RW_DAY	rw_time.h	7;"	d
+RW_Exit	rw_main.c	/^extern void RW_Exit();$/;"	p	file:
+RW_Exit	simserver.c	/^void RW_Exit()$/;"	f
+RW_HandleSig	rw_main.c	/^static void RW_HandleSig(int signo)$/;"	f	file:	signature:(int signo)
+RW_MON	rw_time.h	101;"	d
+RW_MON	rw_time.h	103;"	d
+RW_MON	rw_time.h	105;"	d
+RW_MON	rw_time.h	107;"	d
+RW_MON	rw_time.h	109;"	d
+RW_MON	rw_time.h	23;"	d
+RW_MON	rw_time.h	25;"	d
+RW_MON	rw_time.h	27;"	d
+RW_MON	rw_time.h	29;"	d
+RW_MON	rw_time.h	31;"	d
+RW_MON	rw_time.h	33;"	d
+RW_MON	rw_time.h	35;"	d
+RW_MON	rw_time.h	37;"	d
+RW_MON	rw_time.h	39;"	d
+RW_MON	rw_time.h	41;"	d
+RW_MON	rw_time.h	43;"	d
+RW_MON	rw_time.h	45;"	d
+RW_MON	rw_time.h	49;"	d
+RW_MON	rw_time.h	51;"	d
+RW_MON	rw_time.h	53;"	d
+RW_MON	rw_time.h	55;"	d
+RW_MON	rw_time.h	57;"	d
+RW_MON	rw_time.h	59;"	d
+RW_MON	rw_time.h	61;"	d
+RW_MON	rw_time.h	63;"	d
+RW_MON	rw_time.h	65;"	d
+RW_MON	rw_time.h	67;"	d
+RW_MON	rw_time.h	69;"	d
+RW_MON	rw_time.h	6;"	d
+RW_MON	rw_time.h	71;"	d
+RW_MON	rw_time.h	73;"	d
+RW_MON	rw_time.h	75;"	d
+RW_MON	rw_time.h	77;"	d
+RW_MON	rw_time.h	79;"	d
+RW_MON	rw_time.h	81;"	d
+RW_MON	rw_time.h	83;"	d
+RW_MON	rw_time.h	85;"	d
+RW_MON	rw_time.h	87;"	d
+RW_MON	rw_time.h	89;"	d
+RW_MON	rw_time.h	91;"	d
+RW_MON	rw_time.h	93;"	d
+RW_MON	rw_time.h	95;"	d
+RW_MON	rw_time.h	97;"	d
+RW_MON	rw_time.h	99;"	d
+RW_Main	rw_main.c	/^extern void RW_Main();$/;"	p	file:
+RW_Main	simserver.c	/^void RW_Main()$/;"	f
+RW_SHM_S	rw_main.c	/^} RW_SHM_S;$/;"	t	typeref:struct:__anon1	file:
+RW_TIME_HEAD	rw_time.h	3;"	d
+RW_YEAR	rw_time.h	11;"	d
+RW_YEAR	rw_time.h	13;"	d
+RW_YEAR	rw_time.h	15;"	d
+RW_YEAR	rw_time.h	17;"	d
+RW_YEAR	rw_time.h	19;"	d
+RW_YEAR	rw_time.h	5;"	d
+ReleaseFile	Makefile	/^ReleaseFile=.\/Release\/$(TARGET)-$(MAJOR_VERSION)-$(PATCHLEVEL)-$(SUBLEVEL)$/;"	m
+SEM_ASYNC	utils/utils_shm.c	32;"	d	file:
+SEM_SPINLOCK	utils/utils_shm.c	33;"	d	file:
+SHMC_Attach	utils/utils_shm.c	/^PSHMContext SHMC_Attach( const char *path, int projid, int size )$/;"	f	signature:( const char *path, int projid, int size )
+SHMC_Attach	utils/utils_shm.h	/^PSHMContext SHMC_Attach( const char *path, int projid, int size );$/;"	p	signature:( const char *path, int projid, int size )
+SHMC_Create	utils/utils_shm.c	/^PSHMContext SHMC_Create( const char *path, int projid, int size )$/;"	f	signature:( const char *path, int projid, int size )
+SHMC_Create	utils/utils_shm.h	/^PSHMContext SHMC_Create( const char *path, int projid, int size );$/;"	p	signature:( const char *path, int projid, int size )
+SHMC_Destroy	utils/utils_shm.c	/^void SHMC_Destroy( PSHMContext pshmc )$/;"	f	signature:( PSHMContext pshmc )
+SHMC_Destroy	utils/utils_shm.h	/^void SHMC_Destroy( PSHMContext pshmc );$/;"	p	signature:( PSHMContext pshmc )
+SHMC_Detach	utils/utils_shm.c	/^void SHMC_Detach( PSHMContext pshmc )$/;"	f	signature:( PSHMContext pshmc )
+SHMC_Detach	utils/utils_shm.h	/^void SHMC_Detach( PSHMContext pshmc );$/;"	p	signature:( PSHMContext pshmc )
+SHMC_Lock	utils/utils_shm.c	/^int SHMC_Lock(PSHMContext pshmc)$/;"	f	signature:(PSHMContext pshmc)
+SHMC_Lock	utils/utils_shm.h	/^int SHMC_Lock(PSHMContext pshmc);		\/\/ lock share memory for exclusive access$/;"	p	signature:(PSHMContext pshmc)
+SHMC_Ready	utils/utils_shm.c	/^int SHMC_Ready(PSHMContext pshmc)$/;"	f	signature:(PSHMContext pshmc)
+SHMC_Ready	utils/utils_shm.h	/^int SHMC_Ready(PSHMContext pshmc);		\/\/ writer side wait-up all reader's wait in SHMC_Wait		$/;"	p	signature:(PSHMContext pshmc)
+SHMC_Unlock	utils/utils_shm.c	/^int SHMC_Unlock(PSHMContext pshmc)$/;"	f	signature:(PSHMContext pshmc)
+SHMC_Unlock	utils/utils_shm.h	/^int SHMC_Unlock(PSHMContext pshmc);$/;"	p	signature:(PSHMContext pshmc)
+SHMC_UnlockAndReady	utils/utils_shm.c	/^int SHMC_UnlockAndReady(PSHMContext pshmc)$/;"	f	signature:(PSHMContext pshmc)
+SHMC_UnlockAndReady	utils/utils_shm.h	/^int SHMC_UnlockAndReady(PSHMContext pshmc);$/;"	p	signature:(PSHMContext pshmc)
+SHMC_Wait	utils/utils_shm.c	/^int SHMC_Wait(PSHMContext pshmc)$/;"	f	signature:(PSHMContext pshmc)
+SHMC_Wait	utils/utils_shm.h	/^int SHMC_Wait(PSHMContext pshmc);		\/\/ reader side wait for data ready$/;"	p	signature:(PSHMContext pshmc)
+SHMC_WaitAndLock	utils/utils_shm.c	/^int SHMC_WaitAndLock(PSHMContext pshmc)$/;"	f	signature:(PSHMContext pshmc)
+SHMC_WaitAndLock	utils/utils_shm.h	/^int SHMC_WaitAndLock(PSHMContext pshmc);$/;"	p	signature:(PSHMContext pshmc)
+SHMContext	utils/utils_shm.h	/^} SHMContext, *PSHMContext;$/;"	t	typeref:struct:tagShmContext
+SHM_PROCID	rw_main.c	52;"	d	file:
+SIM7100C_Start	simserver.c	/^static void SIM7100C_Start()$/;"	f	file:
+SIMFSM_E	simserver.c	/^}SIMFSM_E;$/;"	t	typeref:enum:SIMSTAT	file:
+SIMFSM_HAS_SIM	simserver.c	/^	SIMFSM_HAS_SIM,	 \/\/ 节点出来了，这个时候需要启动pppd服务了$/;"	e	enum:SIMSTAT	file:
+SIMFSM_NONE	simserver.c	/^	SIMFSM_NONE = 0, \/\/ 表示无状态，SIM卡无节点，无pppd程序后台启动$/;"	e	enum:SIMSTAT	file:
+SIMFSM_STARTED	simserver.c	/^	SIMFSM_STARTED,  \/\/ 存在pppd和节点,可以ping服务器了$/;"	e	enum:SIMSTAT	file:
+SIMRest	simserver.c	/^static int SIMRest()$/;"	f	file:
+SIMSTAT	simserver.c	/^typedef enum SIMSTAT$/;"	g	file:
+SOCKADDR	utils/utils_net.h	/^typedef struct sockaddr	SOCKADDR;$/;"	t	typeref:struct:sockaddr
+SOCKADDR_IN	utils/utils_net.h	/^typedef struct sockaddr_in SOCKADDR_IN;$/;"	t	typeref:struct:sockaddr_in
+SOCKADDR_IN_ADDR	utils/utils_net.h	159;"	d
+SOCKADDR_IN_FAMILY	utils/utils_net.h	161;"	d
+SOCKADDR_IN_GET	utils/utils_net.h	170;"	d
+SOCKADDR_IN_GET_TOHOST	utils/utils_net.h	183;"	d
+SOCKADDR_IN_PORT	utils/utils_net.h	160;"	d
+SOCKADDR_IN_SET	utils/utils_net.h	163;"	d
+SOCKADDR_IN_SET_FROMHOST	utils/utils_net.h	176;"	d
+SOCKADDR_IN_TOSTRING	utils/utils_net.c	/^const char *SOCKADDR_IN_TOSTRING(SOCKADDR_IN addr)$/;"	f	signature:(SOCKADDR_IN addr)
+SOCKADDR_IN_TOSTRING	utils/utils_net.h	/^extern const char *SOCKADDR_IN_TOSTRING(SOCKADDR_IN addr);$/;"	p	signature:(SOCKADDR_IN addr)
+SOCKADDR_LEN	utils/utils_net.h	35;"	d
+SOCKADDR_STORAGE	utils/utils_net.h	/^typedef struct sockaddr_in SOCKADDR_STORAGE;$/;"	t	typeref:struct:sockaddr_in
+SOCKET_ERROR	utils/utils_net.h	37;"	d
+SOFTWARE_NAME	utils/utils_http.h	14;"	d
+SOFTWARE_NAME	utils/utils_http.h	15;"	d
+SRC	Makefile	/^SRC=$(wildcard *.c)$/;"	m
+STRSTRMAP_INITIALIZER	utils/utils_conf.h	34;"	d
+STR_NETCONF	rw_main.c	59;"	d	file:
+STR_VERSION	rw_main.c	67;"	d	file:
+STR_VERSION	rw_main.c	70;"	d	file:
+SUBLEVEL	Makefile	/^SUBLEVEL=1$/;"	m
+SUCCESS	rw_main.c	79;"	d	file:
+SYSLOG_BKUP	rw_main.c	42;"	d	file:
+SYSLOG_FILE	rw_main.c	41;"	d	file:
+SYS_LIMIT	rw_main.c	45;"	d	file:
+SignalHandle	simserver.c	/^static void SignalHandle( int code )$/;"	f	file:	signature:( int code )
+SimpleConfig	simserver.c	/^}SimpleConfig;$/;"	t	typeref:struct:__anon2	file:
+StrList	utils/utils_ptrlist.h	/^typedef PtrList StrList;$/;"	t
+StrList_exact_find	utils/utils_ptrlist.c	/^POSITION StrList_exact_find(PtrList *list, const char *string)$/;"	f	signature:(PtrList *list, const char *string)
+StrList_exact_find	utils/utils_ptrlist.h	/^extern POSITION StrList_exact_find( StrList *list, const char *string ); \/\/ case sensitive$/;"	p	signature:( StrList *list, const char *string )
+StrList_find	utils/utils_ptrlist.c	/^POSITION StrList_find(PtrList *list, const char *string)$/;"	f	signature:(PtrList *list, const char *string)
+StrList_find	utils/utils_ptrlist.h	/^extern POSITION StrList_find( StrList *list, const char *string );	\/\/ case insensitive$/;"	p	signature:( StrList *list, const char *string )
+StrList_insert_string_atoz	utils/utils_ptrlist.c	/^POSITION StrList_insert_string_atoz(PtrList *list, const char *string)$/;"	f	signature:(PtrList *list, const char *string)
+StrList_insert_string_atoz	utils/utils_ptrlist.h	/^extern POSITION StrList_insert_string_atoz( StrList *list, const char *string );$/;"	p	signature:( StrList *list, const char *string )
+StrList_insert_string_ztoa	utils/utils_ptrlist.c	/^POSITION StrList_insert_string_ztoa(PtrList *list, const char *string)$/;"	f	signature:(PtrList *list, const char *string)
+StrList_insert_string_ztoa	utils/utils_ptrlist.h	/^extern POSITION StrList_insert_string_ztoa( StrList *list, const char *string );$/;"	p	signature:( StrList *list, const char *string )
+StrList_remove_all	utils/utils_ptrlist.c	/^void		StrList_remove_all( StrList *list )$/;"	f	signature:( StrList *list )
+StrList_remove_all	utils/utils_ptrlist.h	/^extern void	StrList_remove_all( StrList *list );$/;"	p	signature:( StrList *list )
+StrMap	utils/utils_ptrlist.h	/^typedef PtrList StrMap;$/;"	t
+StrMap_get	utils/utils_ptrlist.c	/^const char * StrMap_get( StrMap *strmap, const char * key )$/;"	f	signature:( StrMap *strmap, const char * key )
+StrMap_get	utils/utils_ptrlist.h	/^extern const char * StrMap_get( StrMap *strmap, const char * key );$/;"	p	signature:( StrMap *strmap, const char * key )
+StrMap_prepend	utils/utils_ptrlist.c	/^void StrMap_prepend( StrMap *strmap, const char *key, const char *value )$/;"	f	signature:( StrMap *strmap, const char *key, const char *value )
+StrMap_prepend	utils/utils_ptrlist.h	/^extern void StrMap_prepend( StrMap *strmap, const char *key, const char *value );$/;"	p	signature:( StrMap *strmap, const char *key, const char *value )
+StrMap_remove	utils/utils_ptrlist.c	/^void StrMap_remove( StrMap * strmap, const char * key )$/;"	f	signature:( StrMap * strmap, const char * key )
+StrMap_remove	utils/utils_ptrlist.h	/^extern void StrMap_remove( StrMap * strmap, const char * key );$/;"	p	signature:( StrMap * strmap, const char * key )
+StrMap_remove_all	utils/utils_ptrlist.c	/^void StrMap_remove_all( StrMap * strmap )$/;"	f	signature:( StrMap * strmap )
+StrMap_remove_all	utils/utils_ptrlist.h	/^extern void StrMap_remove_all( StrMap * strmap );$/;"	p	signature:( StrMap * strmap )
+StrMap_safe_get	utils/utils_ptrlist.c	/^const char * StrMap_safe_get( StrMap * strmap, const char * key, const char * default_value )$/;"	f	signature:( StrMap * strmap, const char * key, const char * default_value )
+StrMap_safe_get	utils/utils_ptrlist.h	/^extern const char * StrMap_safe_get( StrMap * strmap, const char * key, const char * default_value );$/;"	p	signature:( StrMap * strmap, const char * key, const char * default_value )
+StrMap_set	utils/utils_ptrlist.c	/^int StrMap_set( StrMap *strmap, const char *key, const char * value )$/;"	f	signature:( StrMap *strmap, const char *key, const char * value )
+StrMap_set	utils/utils_ptrlist.h	/^extern int  StrMap_set( StrMap *strmap, const char *key, const char * value );$/;"	p	signature:( StrMap *strmap, const char *key, const char * value )
+StrStrPair	utils/utils_ptrlist.h	/^} StrStrPair;$/;"	t	typeref:struct:tagStrStrPair
+SystemInit	simserver.c	/^static int SystemInit( int force )$/;"	f	file:	signature:( int force )
+TARGET	Makefile	/^TARGET=simserver$/;"	m
+TIMESTAMP	utils/longtime.h	41;"	d
+TIMESTAMP0	utils/longtime.h	42;"	d
+TIMESTAMPR	utils/longtime.h	44;"	d
+TIMESTAMPX	utils/longtime.h	43;"	d
+TIME_DAY	Makefile	/^TIME_DAY=TIME_DAY$(shell date "+%d")$/;"	m
+TIME_FLAGS	Makefile	/^TIME_FLAGS=$/;"	m
+TIME_MON	Makefile	/^TIME_MON=TIME_MON$(shell date "+%m")$/;"	m
+TIME_UNIT	utils/rtcsync.c	/^typedef unsigned char TIME_UNIT;$/;"	t	file:
+TIME_UNIT	utils/rtcsync.c	/^typedef unsigned int TIME_UNIT;$/;"	t	file:
+TIME_YEAR	Makefile	/^TIME_YEAR=TIME_YEAR$(shell date "+%Y")$/;"	m
+TMR_INFINITE	utils/utils_timer.h	7;"	d
+TMR_add_absolute	utils/utils_timer.c	/^int TMR_add_absolute(int id, tmr_hander handle_fxc, time_t t_start)$/;"	f	signature:(int id, tmr_hander handle_fxc, time_t t_start)
+TMR_add_absolute	utils/utils_timer.h	/^int TMR_add_absolute(int id, tmr_hander handle_fxc, time_t t_start);$/;"	p	signature:(int id, tmr_hander handle_fxc, time_t t_start)
+TMR_add_repeat	utils/utils_timer.c	/^int TMR_add_repeat(int id, tmr_hander handle_fxc, int t_period, int count)$/;"	f	signature:(int id, tmr_hander handle_fxc, int t_period, int count)
+TMR_add_repeat	utils/utils_timer.h	/^int TMR_add_repeat(int id, tmr_hander handle_fxc, int t_period, int count);$/;"	p	signature:(int id, tmr_hander handle_fxc, int t_period, int count)
+TMR_has	utils/utils_timer.c	/^int TMR_has(int id)$/;"	f	signature:(int id)
+TMR_has	utils/utils_timer.h	/^int TMR_has(int id);$/;"	p	signature:(int id)
+TMR_initialize	utils/utils_timer.c	/^int TMR_initialize()$/;"	f
+TMR_initialize	utils/utils_timer.h	/^int TMR_initialize();$/;"	p	signature:()
+TMR_kill	utils/utils_timer.c	/^int TMR_kill(int id)$/;"	f	signature:(int id)
+TMR_kill	utils/utils_timer.h	/^int TMR_kill(int id);$/;"	p	signature:(int id)
+TMR_terminate	utils/utils_timer.c	/^void TMR_terminate()$/;"	f
+TMR_terminate	utils/utils_timer.h	/^void TMR_terminate();$/;"	p	signature:()
+TRACE	utils/utils_shm.c	34;"	d	file:
+TRANSLOG_BKUP	rw_main.c	44;"	d	file:
+TRANSLOG_FILE	rw_main.c	43;"	d	file:
+TRANS_LIMIT	rw_main.c	46;"	d	file:
+TRUE	rw_main.c	77;"	d	file:
+Thread_Lock	utils/dbg_printf.c	42;"	d	file:
+Thread_Unlock	utils/dbg_printf.c	43;"	d	file:
+UCTOGBK_TBL	utils/utils_gbutf8.c	11;"	d	file:
+ULONGLONG	utils/utils_mackey.c	/^typedef unsigned long long ULONGLONG;$/;"	t	file:
+UNICODEtoGBK	utils/utils_gbutf8.c	/^wchar_t UNICODEtoGBK(wchar_t unicode)  $/;"	f	signature:(wchar_t unicode)
+UNICODEtoGBK	utils/utils_gbutf8.h	/^wchar_t UNICODEtoGBK(wchar_t unicode);$/;"	p	signature:(wchar_t unicode)
+USEC_PER_SEC	utils/utils_net.h	20;"	d
+UTF8ToGBK	utils/utils_gbutf8.c	/^int UTF8ToGBK(const char* pUTF8,int nutf8Len, char *pmbcGB)  $/;"	f	signature:(const char* pUTF8,int nutf8Len, char *pmbcGB)
+UTF8ToGBK	utils/utils_gbutf8.h	/^int UTF8ToGBK(const char* pUTF8,int nutf8Len, char *pmbcGB);$/;"	p	signature:(const char* pUTF8,int nutf8Len, char *pmbcGB)
+UTF8ToUnicode	utils/utils_gbutf8.c	/^int UTF8ToUnicode(const char* pUTF_8, wchar_t* pUnicode)  $/;"	f	signature:(const char* pUTF_8, wchar_t* pUnicode)
+UTF8ToUnicode	utils/utils_gbutf8.h	/^int UTF8ToUnicode(const char* pUTF_8, wchar_t* pUnicode);$/;"	p	signature:(const char* pUTF_8, wchar_t* pUnicode)
+UTILS_GBUTF8_INCLUDED	utils/utils_gbutf8.h	2;"	d
+UTILS_MACKEY_INCLUDED	utils/utils_mackey.h	7;"	d
+UTILS_NETCFG_INCLUDED	utils/utils_netcfg.h	2;"	d
+UTILS_TIMER_INCLUDED	utils/utils_timer.h	2;"	d
+UnicodeToUTF8	utils/utils_gbutf8.c	/^int UnicodeToUTF8(wchar_t UniCode, char* pUTF8)  $/;"	f	signature:(wchar_t UniCode, char* pUTF8)
+UnicodeToUTF8	utils/utils_gbutf8.h	/^int UnicodeToUTF8(wchar_t Unicode, char* pUTF8);$/;"	p	signature:(wchar_t Unicode, char* pUTF8)
+UnloadCodeTable	utils/utils_gbutf8.c	/^void UnloadCodeTable()$/;"	f
+UnloadCodeTable	utils/utils_gbutf8.h	/^void UnloadCodeTable();	\/\/ unload code table and release memory$/;"	p	signature:()
+WORD	utils/utils_mackey.c	/^typedef unsigned short		 WORD;$/;"	t	file:
+_DBGPRINTF_INCLUDED_	utils/dbg_printf.h	2;"	d
+_GNU_SOURCE	rw_main.c	10;"	d	file:
+_GNU_SOURCE	utils/utils_file.c	17;"	d	file:
+_HTTP_CODE_INCLUDED	utils/http_code.h	2;"	d
+_LONGTIME_H	utils/longtime.h	2;"	d
+_PTRLIST_H_	utils/utils_ptrlist.h	8;"	d
+_RTCSYNC_INCLUDED_	utils/rtcsync.h	2;"	d
+_UTILS_CONF_H_	utils/utils_conf.h	8;"	d
+_UTILS_FILE_H_	utils/utils_file.h	19;"	d
+_UTILS_HTTP_H_	utils/utils_http.h	6;"	d
+_UTILS_NET_H_	utils/utils_net.h	13;"	d
+_UTILS_SHM_INCLUDED_	utils/utils_shm.h	9;"	d
+_UTILS_STR_H_	utils/utils_str.h	6;"	d
+__COMPAR_FN_T	utils/utils_ptrlist.h	13;"	d
+__anon1::dbg_marktime	rw_main.c	/^	int 		dbg_marktime;				\/\/ last time process invoke dbg_printf to show any process output (it's time_t actually).$/;"	m	struct:__anon1	file:	access:public
+__anon1::engine_pid	rw_main.c	/^	int			engine_pid;					\/\/ when running as daemon, this is pid of lpnr processing process (the engine)$/;"	m	struct:__anon1	file:	access:public
+__anon1::master_pid	rw_main.c	/^	int			master_pid;					\/\/ when running as daemon, this is pid of master process$/;"	m	struct:__anon1	file:	access:public
+__anon1::rw_engine_run	rw_main.c	/^	int			rw_engine_run;		\/\/ lpnr engine process is running $/;"	m	struct:__anon1	file:	access:public
+__anon1::rw_power_on	rw_main.c	/^	int			rw_power_on;$/;"	m	struct:__anon1	file:	access:public
+__anon1::rw_server_run	rw_main.c	/^	int			rw_server_run;		\/\/ lpnr running control 1 is run, 0 is stop.$/;"	m	struct:__anon1	file:	access:public
+__anon1::total_respawn	rw_main.c	/^	int			total_respawn;			\/\/ total number of respawn $/;"	m	struct:__anon1	file:	access:public
+__anon2::key	simserver.c	/^	char key[64];$/;"	m	struct:__anon2	file:	access:public
+__anon2::value	simserver.c	/^	char value[128];$/;"	m	struct:__anon2	file:	access:public
+__anon4::count	utils/utils_timer.c	/^	int 	count;$/;"	m	struct:__anon4	file:	access:public
+__anon4::handle	utils/utils_timer.c	/^	tmr_hander	handle;$/;"	m	struct:__anon4	file:	access:public
+__anon4::id	utils/utils_timer.c	/^	int		id;$/;"	m	struct:__anon4	file:	access:public
+__anon4::lt_fire	utils/utils_timer.c	/^	_longtime	lt_fire;		\/\/ time to fired$/;"	m	struct:__anon4	file:	access:public
+__anon4::t_period	utils/utils_timer.c	/^	int		t_period;				\/\/ 0 for one-shot timer$/;"	m	struct:__anon4	file:	access:public
+__anon5::gw	utils/utils_netcfg.h	/^	unsigned long	gw;$/;"	m	struct:__anon5	access:public
+__anon5::ip	utils/utils_netcfg.h	/^	unsigned long	ip;$/;"	m	struct:__anon5	access:public
+__anon5::mac	utils/utils_netcfg.h	/^	unsigned char mac[8];		\/\/ we only use first 6 bytes.$/;"	m	struct:__anon5	access:public
+__anon5::netmask	utils/utils_netcfg.h	/^	unsigned long	netmask;$/;"	m	struct:__anon5	access:public
+__anon6::day	utils/longtime.h	/^	int day;				\/\/ day of month 1~31$/;"	m	struct:__anon6	access:public
+__anon6::hour	utils/longtime.h	/^	int hour;			\/\/ hour in a day 0~23$/;"	m	struct:__anon6	access:public
+__anon6::minute	utils/longtime.h	/^	int	minute;		\/\/ minutes in hour 0~59$/;"	m	struct:__anon6	access:public
+__anon6::month	utils/longtime.h	/^	int month;			\/\/ 1 ~ 12$/;"	m	struct:__anon6	access:public
+__anon6::msec	utils/longtime.h	/^	int msec;			\/\/ milli-seconds 0~999$/;"	m	struct:__anon6	access:public
+__anon6::second	utils/longtime.h	/^	int second;		\/\/ seconds in minutes$/;"	m	struct:__anon6	access:public
+__anon6::year	utils/longtime.h	/^	int	year;			\/\/ western calendar year 4 digit$/;"	m	struct:__anon6	access:public
+__anon8::gbk	utils/utils_gbutf8.c	/^	unsigned short gbk;$/;"	m	struct:__anon8	file:	access:public
+__anon8::uc	utils/utils_gbutf8.c	/^	unsigned short uc;$/;"	m	struct:__anon8	file:	access:public
+__buf	utils/utils_shm.c	/^             struct seminfo *__buf;    \/* buffer for IPC_INFO *\/$/;"	m	union:semun	typeref:struct:semun::seminfo	file:	access:public
+__compar_fn_t	utils/utils_ptrlist.h	/^typedef int (*__compar_fn_t) (const void *, const void *);$/;"	t
+_http_method_string	utils/utils_http.c	/^const char * _http_method_string[] = {$/;"	v
+_longtime	utils/longtime.h	/^typedef signed long long	_longtime;$/;"	t
+_mybuf	utils/longtime.c	/^static char	_mybuf[ LONG_TIME_FORMAT_SIZE ];$/;"	v	file:
+_secondOffset	utils/longtime.c	/^static const time_t _secondOffset = ( 365 * 30 + 7 ) * 24 * 60 * 60;	\/\/ time offset from 1970.1.1 to 2000.1.1, 7 leap years( 72, 76, 80, 84, 88, 92, 96 )$/;"	v	file:
+accept_monitor	utils/dbg_printf.c	/^static Monitor *accept_monitor()$/;"	f	file:
+add_default_gateway	utils/utils_net.c	/^int add_default_gateway(const char *ifname, SOCKADDR_IN *gwaddr )$/;"	f	signature:(const char *ifname, SOCKADDR_IN *gwaddr )
+add_default_gateway	utils/utils_net.h	/^extern int add_default_gateway(const char *ifname, SOCKADDR_IN *pgwaddr);$/;"	p	signature:(const char *ifname, SOCKADDR_IN *pgwaddr)
+array	utils/utils_shm.c	/^             unsigned short *array;    \/* array for GETALL, SETALL *\/$/;"	m	union:semun	file:	access:public
+bConfigFileAndOnline	utils/utils_netcfg.c	/^static int bConfigFileAndOnline=0;$/;"	v	file:
+bConfigFileAndOnline	utils/utils_netcfg.c	/^static int bConfigFileAndOnline=1;$/;"	v	file:
+bQuit	dpchwork.c	/^static int bQuit = 0;$/;"	v	file:
+begin_work	dpchwork.c	/^static int begin_work = 0;$/;"	v	file:
+bin2bcd	utils/utils_http.c	/^static inline char bin2bcd(char bin)$/;"	f	file:	signature:(char bin)
+bind_extra_ip	utils/utils_netcfg.c	/^int bind_extra_ip(const char *ifname, int index, unsigned long ip)$/;"	f	signature:(const char *ifname, int index, unsigned long ip)
+bind_extra_ip	utils/utils_netcfg.h	/^extern int bind_extra_ip( const char *ifname, int index, unsigned long ip);$/;"	p	signature:( const char *ifname, int index, unsigned long ip)
+btoh	utils/utils_mackey.c	/^static void btoh( BYTE byte, BYTE *ptr )$/;"	f	file:	signature:( BYTE byte, BYTE *ptr )
+buf	utils/utils_shm.c	/^             struct semid_ds *buf;     \/* buffer for IPC_STAT, IPC_SET *\/$/;"	m	union:semun	typeref:struct:semun::semid_ds	file:	access:public
+byte	utils/utils_str.c	/^typedef unsigned char	byte;$/;"	t	file:
+cal_chksum	simpleping.c	/^static unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f	file:	signature:(unsigned short *addr,int len)
+cal_chksum	simpleping.c	/^static unsigned short cal_chksum(unsigned short *addr,int len);$/;"	p	file:	signature:(unsigned short *addr,int len)
+check_route	simserver.c	/^static int check_route()$/;"	f	file:
+code	utils/utils_http.c	/^	int			code;$/;"	m	struct:tagHttpConnection	file:	access:public
+comparison_fn_t	utils/utils_ptrlist.h	/^typedef __compar_fn_t comparison_fn_t;$/;"	t
+cond	dpchwork.c	/^static pthread_cond_t cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+conf_init	simserver.c	/^static int conf_init()$/;"	f	file:
+config_gateway	utils/utils_netcfg.c	/^int config_gateway(const char *gateway, int updonline )$/;"	f	signature:(const char *gateway, int updonline )
+config_gateway	utils/utils_netcfg.h	/^extern int config_gateway(const char *gateway, int bSetOnline );$/;"	p	signature:(const char *gateway, int bSetOnline )
+config_ip	utils/utils_netcfg.c	/^int config_ip( const char *ip_upd, int updonline )$/;"	f	signature:( const char *ip_upd, int updonline )
+config_ip	utils/utils_netcfg.h	/^extern int config_ip( const char *ip_upd, int bSetOnline );$/;"	p	signature:( const char *ip_upd, int bSetOnline )
+config_macaddr	utils/utils_netcfg.c	/^int config_macaddr(const char *mac_new, int updonline )$/;"	f	signature:(const char *mac_new, int updonline )
+config_macaddr	utils/utils_netcfg.h	/^extern int config_macaddr(const char *mac_new, int bSetOnline );$/;"	p	signature:(const char *mac_new, int bSetOnline )
+config_netmask	utils/utils_netcfg.c	/^int config_netmask(const char *new_mask, int updonline )$/;"	f	signature:(const char *new_mask, int updonline )
+config_netmask	utils/utils_netcfg.h	/^extern int config_netmask(const char *new_mask, int bSetOnline );$/;"	p	signature:(const char *new_mask, int bSetOnline )
+configlist	simserver.c	/^SimpleConfig configlist[20];$/;"	v
+count	utils/utils_ptrlist.h	/^	int		count;$/;"	m	struct:tagPtrList	access:public
+count	utils/utils_timer.c	/^	int 	count;$/;"	m	struct:__anon4	file:	access:public
+dashed_key	utils/utils_mackey.c	/^LPCTSTR dashed_key( LPSTR key )$/;"	f	signature:( LPSTR key )
+dashed_key	utils/utils_mackey.h	/^const char* dashed_key( const char* key );$/;"	p	signature:( const char* key )
+datalen	simpleping.c	/^static int sockfd,datalen=56;$/;"	v	file:
+day	utils/longtime.h	/^	int day;				\/\/ day of month 1~31$/;"	m	struct:__anon6	access:public
+dbg_flush	utils/dbg_printf.c	/^void dbg_flush(int twait_ms)$/;"	f	signature:(int twait_ms)
+dbg_flush	utils/dbg_printf.h	/^extern void dbg_flush(int twait_ms);$/;"	p	signature:(int twait_ms)
+dbg_getidlesec	utils/dbg_printf.c	/^int dbg_getidlesec()$/;"	f
+dbg_getidlesec	utils/dbg_printf.h	/^extern int dbg_getidlesec();	\/\/ get number of seconds that marker has not been touched$/;"	p	signature:()
+dbg_getlevel	utils/dbg_printf.c	/^int dbg_getlevel()$/;"	f
+dbg_getlevel	utils/dbg_printf.h	/^extern int dbg_getlevel(int which);$/;"	p	signature:(int which)
+dbg_getloggeraddr	utils/dbg_printf.c	/^const char* dbg_getloggeraddr(int idx)$/;"	f	signature:(int idx)
+dbg_getloggeraddr	utils/dbg_printf.h	/^extern const char *dbg_getloggeraddr(int idx);$/;"	p	signature:(int idx)
+dbg_getnumlogger	utils/dbg_printf.c	/^int dbg_getnumlogger()$/;"	f
+dbg_getnumlogger	utils/dbg_printf.h	/^extern int dbg_getnumlogger();$/;"	p	signature:()
+dbg_getpid	utils/dbg_printf.c	/^int dbg_getpid()$/;"	f
+dbg_getpid	utils/dbg_printf.h	/^extern int dbg_getpid();$/;"	p	signature:()
+dbg_gettid	utils/dbg_printf.c	/^int dbg_gettid()$/;"	f
+dbg_gettid	utils/dbg_printf.h	/^extern int dbg_gettid();$/;"	p	signature:()
+dbg_initialize	utils/dbg_printf.c	/^int dbg_initialize(int port)$/;"	f	signature:(int port)
+dbg_initialize	utils/dbg_printf.h	/^extern int dbg_initialize(int port);$/;"	p	signature:(int port)
+dbg_marktime	rw_main.c	/^	int 		dbg_marktime;				\/\/ last time process invoke dbg_printf to show any process output (it's time_t actually).$/;"	m	struct:__anon1	file:	access:public
+dbg_pid	utils/dbg_printf.c	/^static pid_t	dbg_pid = 0;$/;"	v	file:
+dbg_printf	utils/dbg_printf.c	/^int dbg_printf(int level, const char* format, ...)$/;"	f	signature:(int level, const char* format, ...)
+dbg_printf	utils/dbg_printf.h	/^extern int dbg_printf(int level, const char* format, ...);$/;"	p	signature:(int level, const char* format, ...)
+dbg_setconsolelevel	utils/dbg_printf.c	/^int dbg_setconsolelevel(int nNewLevel )$/;"	f	signature:(int nNewLevel )
+dbg_setconsolelevel	utils/dbg_printf.h	/^extern int dbg_setconsolelevel(int nNewLevel );$/;"	p	signature:(int nNewLevel )
+dbg_setlevel	utils/dbg_printf.h	11;"	d
+dbg_setmarkaddr	utils/dbg_printf.c	/^void dbg_setmarkaddr( int *marker )$/;"	f	signature:( int *marker )
+dbg_setmarkaddr	utils/dbg_printf.h	/^extern void dbg_setmarkaddr( int *marker );		$/;"	p	signature:( int *marker )
+dbg_setremotelevel	utils/dbg_printf.c	/^int dbg_setremotelevel( int nNewLevel )$/;"	f	signature:( int nNewLevel )
+dbg_setremotelevel	utils/dbg_printf.h	/^extern int dbg_setremotelevel( int nNewLevel );$/;"	p	signature:( int nNewLevel )
+dbg_setwaitflushed	utils/dbg_printf.c	/^void dbg_setwaitflushed( int wait )$/;"	f	signature:( int wait )
+dbg_setwaitflushed	utils/dbg_printf.h	/^extern void dbg_setwaitflushed( int wait );$/;"	p	signature:( int wait )
+dbg_terminate	utils/dbg_printf.c	/^void dbg_terminate()$/;"	f
+dbg_terminate	utils/dbg_printf.h	/^extern void dbg_terminate();$/;"	p	signature:()
+dbg_threadId	utils/dbg_printf.c	/^static pthread_t  dbg_threadId = 0;$/;"	v	file:
+dbg_threadfxc	utils/dbg_printf.c	/^static void *dbg_threadfxc( void *param )$/;"	f	file:	signature:( void *param )
+dbg_touch	utils/dbg_printf.c	/^void dbg_touch()$/;"	f
+dbg_touch	utils/dbg_printf.h	/^extern void dbg_touch();				\/\/ touch the time marker as current system time $/;"	p	signature:()
+dbgthread_run	utils/dbg_printf.c	/^static int dbgthread_run = 0;$/;"	v	file:
+del_default_gateway	utils/utils_net.c	/^int del_default_gateway(const char *ifname, SOCKADDR_IN *gwaddr)$/;"	f	signature:(const char *ifname, SOCKADDR_IN *gwaddr)
+del_default_gateway	utils/utils_net.h	/^extern int del_default_gateway(const char *ifname, SOCKADDR_IN *pgwaddr);$/;"	p	signature:(const char *ifname, SOCKADDR_IN *pgwaddr)
+del_defgateway	utils/utils_net.h	136;"	d
+delete_files	utils/utils_file.c	/^int delete_files(const char *dir,...)$/;"	f	signature:(const char *dir,...)
+delete_files	utils/utils_file.h	/^int delete_files(const char *dir,...);$/;"	p	signature:(const char *dir,...)
+dest_addr	simpleping.c	/^static struct sockaddr_in dest_addr;$/;"	v	typeref:struct:sockaddr_in	file:
+dhcp_init	dpchwork.c	/^int dhcp_init( const char *inter )$/;"	f	signature:( const char *inter )
+dhcp_init	simserver.c	/^int dhcp_init( const char *inter );$/;"	p	file:	signature:( const char *inter )
+dhcp_wakeup	dpchwork.c	/^int dhcp_wakeup( int enable )$/;"	f	signature:( int enable )
+dhcp_wakeup	simserver.c	/^int dhcp_wakeup( int enable );$/;"	p	file:	signature:( int enable )
+dpch_exit	dpchwork.c	/^int dpch_exit()$/;"	f
+dpch_exit	simserver.c	/^int dpch_exit();$/;"	p	file:
+engine_pid	rw_main.c	/^	int			engine_pid;					\/\/ when running as daemon, this is pid of lpnr processing process (the engine)$/;"	m	struct:__anon1	file:	access:public
+factory_default_netconf	utils/utils_netcfg.c	/^void factory_default_netconf()$/;"	f
+factory_default_netconf	utils/utils_netcfg.h	/^extern void factory_default_netconf();$/;"	p	signature:()
+factory_default_script	rw_main.c	/^void factory_default_script()$/;"	f
+factory_reset	rw_main.c	/^void factory_reset()$/;"	f
+fd	utils/dbg_printf.c	/^	int	fd;				\/\/ socket$/;"	m	struct:tagMonitor	file:	access:public
+fd	utils/utils_http.c	/^	int			fd;$/;"	m	struct:tagHttpConnection	file:	access:public
+fd_svc	utils/dbg_printf.c	/^static int fd_svc = 0;			\/\/ work thread listen socket$/;"	v	file:
+fget_filesize	utils/utils_file.c	/^int fget_filesize( int fd )$/;"	f	signature:( int fd )
+fget_filesize	utils/utils_file.h	/^extern int fget_filesize( int fd );$/;"	p	signature:( int fd )
+file_content	utils/utils_netcfg.c	/^static const char *file_content = $/;"	v	file:
+file_netscript	utils/utils_netcfg.c	/^static const char *file_netscript = NULL;$/;"	v	file:
+file_replace_str	utils/utils_file.c	/^int file_replace_str( const char *path, const char *str_old, const char *str_new, int bcaseignore )$/;"	f	signature:( const char *path, const char *str_old, const char *str_new, int bcaseignore )
+file_replace_str	utils/utils_file.h	/^extern int file_replace_str( const char *path, const char *str_old, const char *str_new, int bcaseignore );$/;"	p	signature:( const char *path, const char *str_old, const char *str_new, int bcaseignore )
+file_replace_str_after	utils/utils_file.c	/^int file_replace_str_after( const char *path, const char *str_prefix, const char *str_new, int bcaseignore )$/;"	f	signature:( const char *path, const char *str_prefix, const char *str_new, int bcaseignore )
+file_replace_str_after	utils/utils_file.h	/^extern int file_replace_str_after( const char *path, const char *str_prefix, const char *str_new, int bcaseignore );$/;"	p	signature:( const char *path, const char *str_prefix, const char *str_new, int bcaseignore )
+find_process	dpchwork.c	/^static int find_process( const char *pidname, int pidlist[], int max_count )$/;"	f	file:	signature:( const char *pidname, int pidlist[], int max_count )
+find_process	simserver.c	/^static int find_process( const char *info )$/;"	f	file:	signature:( const char *info )
+find_process	simserver.c	/^static int find_process( const char *info );$/;"	p	file:	signature:( const char *info )
+first_parent_on_signal_quit	rw_main.c	/^static void first_parent_on_signal_quit( int sig )$/;"	f	file:	signature:( int sig )
+first_parent_pid	rw_main.c	/^static pid_t	first_parent_pid = 0;$/;"	v	file:
+first_parent_quit	rw_main.c	/^static int		first_parent_quit = 0;$/;"	v	file:
+from	simpleping.c	/^static struct sockaddr_in from;$/;"	v	typeref:struct:sockaddr_in	file:
+g_bHasRTC	rw_main.c	/^BOOL g_bHasRTC=FALSE;$/;"	v
+g_bHasSDCard	rw_main.c	/^BOOL g_bHasSDCard=FALSE;$/;"	v
+g_shmptr	rw_main.c	/^RW_SHM_S *g_shmptr=NULL;$/;"	v
+g_stNETConf	rw_main.c	/^NET_CONFIG_S	g_stNETConf;$/;"	v
+g_stNETConf	utils/utils_netcfg.c	/^extern NET_CONFIG_S  g_stNETConf;$/;"	x
+gbDaemonMode	rw_main.c	/^static BOOL gbDaemonMode = FALSE;$/;"	v	file:
+gbk	utils/utils_gbutf8.c	/^	unsigned short gbk;$/;"	m	struct:__anon8	file:	access:public
+gbkArray	utils/utils_gbutf8.c	/^static unsigned short	 *gbkArray=NULL;		\/\/ GBK to UniCode array$/;"	v	file:
+get_abs_path	utils/utils_file.c	/^int get_abs_path( const char * dirname, const char * rel_path, char * buf, int bufsize )$/;"	f	signature:( const char * dirname, const char * rel_path, char * buf, int bufsize )
+get_abs_path	utils/utils_file.h	/^extern int get_abs_path( const char * dirname, const char * rel_path, char * buf, int bufsize );$/;"	p	signature:( const char * dirname, const char * rel_path, char * buf, int bufsize )
+get_dirname	utils/utils_file.c	/^int get_dirname( const char *path, char* buffer, int buf_size )$/;"	f	signature:( const char *path, char* buffer, int buf_size )
+get_dirname	utils/utils_file.h	/^extern int get_dirname( const char *path, char* buffer, int buf_size );$/;"	p	signature:( const char *path, char* buffer, int buf_size )
+get_filename	utils/utils_file.c	/^int get_filename( const char *path, char* buffer, int buf_size )$/;"	f	signature:( const char *path, char* buffer, int buf_size )
+get_filename	utils/utils_file.h	/^extern int get_filename( const char *path, char* buffer, int buf_size );$/;"	p	signature:( const char *path, char* buffer, int buf_size )
+get_filesize	utils/utils_file.c	/^int get_filesize( const char *path )$/;"	f	signature:( const char *path )
+get_filesize	utils/utils_file.h	/^extern int get_filesize( const char *path );$/;"	p	signature:( const char *path )
+get_freemem	rw_main.c	/^int get_freemem(void)$/;"	f	signature:(void)
+get_gatewayaddr	utils/utils_net.c	/^unsigned long get_gatewayaddr( const char *ifname, char *buf )$/;"	f	signature:( const char *ifname, char *buf )
+get_gatewayaddr	utils/utils_net.h	/^extern unsigned long get_gatewayaddr( const char *ifname, char *buf );$/;"	p	signature:( const char *ifname, char *buf )
+get_gbk_index	utils/utils_gbutf8.c	/^static int get_gbk_index( unsigned char code1, unsigned char code2 )$/;"	f	file:	signature:( unsigned char code1, unsigned char code2 )
+get_host_ip	utils/utils_net.c	/^unsigned long get_host_ip( const char *hostname, char *buf )$/;"	f	signature:( const char *hostname, char *buf )
+get_host_ip	utils/utils_net.h	/^extern unsigned long get_host_ip( const char *hostname, char *buf );$/;"	p	signature:( const char *hostname, char *buf )
+get_ifadapter_ip	utils/utils_net.c	/^unsigned long get_ifadapter_ip( const char *ifa_name, char *buf, SOCKADDR_IN *netmask, SOCKADDR_IN *ip_bcast  )$/;"	f	signature:( const char *ifa_name, char *buf, SOCKADDR_IN *netmask, SOCKADDR_IN *ip_bcast )
+get_ifadapter_ip	utils/utils_net.h	/^extern unsigned long get_ifadapter_ip( const char *ifa_name, char *buf, SOCKADDR_IN *netmask, SOCKADDR_IN *ip_bcast );$/;"	p	signature:( const char *ifa_name, char *buf, SOCKADDR_IN *netmask, SOCKADDR_IN *ip_bcast )
+get_ifadapter_name	utils/utils_net.c	/^const char *get_ifadapter_name()$/;"	f
+get_ifadapter_name	utils/utils_net.h	/^extern const char *get_ifadapter_name();$/;"	p	signature:()
+get_itimer	rw_main.c	/^long get_itimer( int which )$/;"	f	signature:( int which )
+get_last_reboot	rw_main.c	/^static int get_last_reboot(void)$/;"	f	file:	signature:(void)
+get_mac_addr	utils/utils_net.c	/^int get_mac_addr( const char *ifname, unsigned char *ifaddr )$/;"	f	signature:( const char *ifname, unsigned char *ifaddr )
+get_mac_addr	utils/utils_net.h	/^extern int get_mac_addr( const char *ifname, unsigned char *hwaddr );		\/\/ hwaddr: 6 bytes mac addr.$/;"	p	signature:( const char *ifname, unsigned char *hwaddr )
+get_maxlevel	utils/dbg_printf.c	/^static void get_maxlevel()$/;"	f	file:
+get_netaddr	utils/utils_net.c	/^int get_netaddr( const char *ifname, SOCKADDR_IN *netaddr )$/;"	f	signature:( const char *ifname, SOCKADDR_IN *netaddr )
+get_netaddr	utils/utils_net.h	/^extern int get_netaddr( const char *ifname, SOCKADDR_IN *netaddr );$/;"	p	signature:( const char *ifname, SOCKADDR_IN *netaddr )
+get_netmask	utils/utils_net.c	/^int get_netmask( const char *ifname, SOCKADDR_IN *netmask )$/;"	f	signature:( const char *ifname, SOCKADDR_IN *netmask )
+get_netmask	utils/utils_net.h	/^extern int get_netmask( const char *ifname, SOCKADDR_IN *netmask );$/;"	p	signature:( const char *ifname, SOCKADDR_IN *netmask )
+get_network_config	utils/utils_netcfg.c	/^void get_network_config(NET_CONFIG_S *pconf)$/;"	f	signature:(NET_CONFIG_S *pconf)
+get_network_config	utils/utils_netcfg.h	/^extern void get_network_config(NET_CONFIG_S *pconf);$/;"	p	signature:(NET_CONFIG_S *pconf)
+get_value	simserver.c	/^const char *get_value( const char *key )$/;"	f	signature:( const char *key )
+getline	simserver.c	/^extern ssize_t getline(char **lineptr, size_t *n, FILE *stream);$/;"	p	file:	signature:(char **lineptr, size_t *n, FILE *stream)
+gettimeofday	utils/longtime.c	/^int gettimeofday(struct timeval *tv, struct timezone *tz)$/;"	f	signature:(struct timeval *tv, struct timezone *tz)
+gnEnabler	rw_main.c	/^int	gnEnabler=0;$/;"	v
+gnOutLevel	rw_main.c	/^int gnOutLevel=0;$/;"	v
+guess_mimetype_by_content	utils/utils_http.c	/^const char* guess_mimetype_by_content( char *data, int size )$/;"	f	signature:( char *data, int size )
+guess_mimetype_by_content	utils/utils_http.h	/^extern const char* guess_mimetype_by_content( char *data, int size );$/;"	p	signature:( char *data, int size )
+guess_mimetype_by_filename	utils/utils_http.c	/^const char* guess_mimetype_by_filename( const char *filename )$/;"	f	signature:( const char *filename )
+guess_mimetype_by_filename	utils/utils_http.h	/^extern const char* guess_mimetype_by_filename( const char *filename );$/;"	p	signature:( const char *filename )
+gw	utils/utils_netcfg.h	/^	unsigned long	gw;$/;"	m	struct:__anon5	access:public
+handle	utils/utils_timer.c	/^	tmr_hander	handle;$/;"	m	struct:__anon4	file:	access:public
+head	utils/utils_ptrlist.h	/^	POSITION	head, rear;$/;"	m	struct:tagPtrList	access:public
+headers	utils/utils_http.c	/^	StrMap		headers;$/;"	m	struct:tagHttpConnection	file:	access:public
+himm	simserver.c	/^static void himm(unsigned int phy_addr, unsigned int ulNew )$/;"	f	file:	signature:(unsigned int phy_addr, unsigned int ulNew )
+hour	utils/longtime.h	/^	int hour;			\/\/ hour in a day 0~23$/;"	m	struct:__anon6	access:public
+hour	utils/rtcsync.c	/^      TIME_UNIT  hour;$/;"	m	struct:RTC_T	file:	access:public
+http_code_to_string	utils/utils_http.c	/^const char * http_code_to_string( int code )$/;"	f	signature:( int code )
+http_code_to_string	utils/utils_http.h	/^extern const char * http_code_to_string( int code );$/;"	p	signature:( int code )
+http_decode_authorization_string	utils/utils_http.c	/^int http_decode_authorization_string( const char *auth_string, char *user, char *passwd )$/;"	f	signature:( const char *auth_string, char *user, char *passwd )
+http_decode_authorization_string	utils/utils_http.h	/^extern int http_decode_authorization_string( const char *auth_string, char *user, char *passwd );$/;"	p	signature:( const char *auth_string, char *user, char *passwd )
+http_default_messages	utils/utils_http.c	/^IntStrPair http_default_messages[] = {$/;"	v
+http_encode_authorization_string	utils/utils_http.c	/^char *http_encode_authorization_string( const char *user, const char *passwd, char *buf )$/;"	f	signature:( const char *user, const char *passwd, char *buf )
+http_encode_authorization_string	utils/utils_http.h	/^extern char *http_encode_authorization_string( const char *user, const char *passwd, char *buf );$/;"	p	signature:( const char *user, const char *passwd, char *buf )
+http_method_int	utils/utils_http.c	/^int http_method_int( const char * method_string )$/;"	f	signature:( const char * method_string )
+http_method_int	utils/utils_http.h	/^extern int http_method_int( const char * method_string );$/;"	p	signature:( const char * method_string )
+http_method_string	utils/utils_http.c	/^const char * http_method_string( int method_int )$/;"	f	signature:( int method_int )
+http_method_string	utils/utils_http.h	/^extern const char * http_method_string( int method_int );$/;"	p	signature:( int method_int )
+http_receive_headers	utils/utils_http.c	/^int http_receive_headers( int fd, StrMap * strmap )$/;"	f	signature:( int fd, StrMap * strmap )
+http_receive_headers	utils/utils_http.h	/^extern int http_receive_headers( int fd, StrMap * strmap );$/;"	p	signature:( int fd, StrMap * strmap )
+http_response	utils/utils_http.c	/^int http_response(int fd, int code, const char *shortmsg, const char *extra_header, const char *textmsg )$/;"	f	signature:(int fd, int code, const char *shortmsg, const char *extra_header, const char *textmsg )
+http_response	utils/utils_http.h	/^extern int http_response(int fd, int code, const char *shortmsg, const char *extra_header, const char *textmsg );$/;"	p	signature:(int fd, int code, const char *shortmsg, const char *extra_header, const char *textmsg )
+http_response_default	utils/utils_http.c	/^int http_response_default(int fd, int code)$/;"	f	signature:(int fd, int code)
+http_response_default	utils/utils_http.h	/^extern int http_response_default(int fd, int code);$/;"	p	signature:(int fd, int code)
+http_response_ex	utils/utils_http.c	/^int http_response_ex( int fd, int code, const char* shortmsg, StrMap * headers, const char *textmsg )$/;"	f	signature:( int fd, int code, const char* shortmsg, StrMap * headers, const char *textmsg )
+http_response_ex	utils/utils_http.h	/^extern int http_response_ex( int fd, int code, const char* shortmsg, StrMap * headers, const char *textmsg );$/;"	p	signature:( int fd, int code, const char* shortmsg, StrMap * headers, const char *textmsg )
+http_skip_headers	utils/utils_http.c	/^int http_skip_headers( int fd )$/;"	f	signature:( int fd )
+http_skip_headers	utils/utils_http.h	/^extern int http_skip_headers( int fd );$/;"	p	signature:( int fd )
+http_trace_response	utils/utils_http.c	/^int http_trace_response( int onoff )$/;"	f	signature:( int onoff )
+http_trace_response	utils/utils_http.h	/^extern int http_trace_response( int onoff );$/;"	p	signature:( int onoff )
+http_url_decode	utils/utils_http.c	/^int http_url_decode( const char *str, int len, char *buf, int bufsize )$/;"	f	signature:( const char *str, int len, char *buf, int bufsize )
+http_url_decode	utils/utils_http.h	/^extern int http_url_decode( const char *str, int len, char *buf, int bufsize );$/;"	p	signature:( const char *str, int len, char *buf, int bufsize )
+http_url_encode	utils/utils_http.c	/^int http_url_encode( const char *str, int len, char *buf, int bufsize )$/;"	f	signature:( const char *str, int len, char *buf, int bufsize )
+http_url_encode	utils/utils_http.h	/^extern int http_url_encode( const char *str, int len, char *buf, int bufsize );$/;"	p	signature:( const char *str, int len, char *buf, int bufsize )
+id	utils/utils_timer.c	/^	int		id;$/;"	m	struct:__anon4	file:	access:public
+id2key	utils/utils_mackey.c	/^void id2key( const BYTE *id, LPSTR key )$/;"	f	signature:( const BYTE *id, LPSTR key )
+id2key	utils/utils_mackey.h	/^void id2key( const unsigned char* id, char* key );$/;"	p	signature:( const unsigned char* id, char* key )
+ifaddr2sn	utils/utils_mackey.c	/^void ifaddr2sn( BYTE *ifaddr, WORD *sn )$/;"	f	signature:( BYTE *ifaddr, WORD *sn )
+ifaddr2sn	utils/utils_mackey.h	/^void ifaddr2sn( unsigned char *ifaddr, unsigned short *sn );$/;"	p	signature:( unsigned char *ifaddr, unsigned short *sn )
+ifconfig	utils/utils_net.c	/^int ifconfig(const char *ifname, const char *ipaddr, const char *netmask, const char *gwip)$/;"	f	signature:(const char *ifname, const char *ipaddr, const char *netmask, const char *gwip)
+ifconfig	utils/utils_net.h	/^extern int ifconfig(const char *ifname, const char *ipaddr, const char *netmask, const char *gw);$/;"	p	signature:(const char *ifname, const char *ipaddr, const char *netmask, const char *gw)
+in_service	utils/utils_timer.c	/^static int				in_service = 1;$/;"	v	file:
+init_itimer	rw_main.c	/^void init_itimer(int which)$/;"	f	signature:(int which)
+interface	dpchwork.c	/^static char interface[128] = {"ppp0"};$/;"	v	file:
+ip	utils/utils_netcfg.h	/^	unsigned long	ip;$/;"	m	struct:__anon5	access:public
+iponline	simpleping.c	/^int iponline( const char *strip)$/;"	f	signature:( const char *strip)
+iponline	simserver.c	/^extern int iponline( const char *IP );$/;"	p	file:	signature:( const char *IP )
+is_all_digit	utils/longtime.c	/^static int is_all_digit(const char *str, int len)$/;"	f	file:	signature:(const char *str, int len)
+is_interface_up	dpchwork.c	/^static int is_interface_up(const char *eth_inf, char *ip , int maxzize)$/;"	f	file:	signature:(const char *eth_inf, char *ip , int maxzize)
+is_sockaddr_equal	utils/utils_net.c	/^int is_sockaddr_equal(void *ss1, void *ss2)$/;"	f	signature:(void *ss1, void *ss2)
+is_sockaddr_equal	utils/utils_net.h	/^int is_sockaddr_equal(void *ss1, void *ss2);$/;"	p	signature:(void *ss1, void *ss2)
+is_sockaddr_v4	utils/utils_net.h	190;"	d
+is_sockaddr_v4mapped	utils/utils_net.h	191;"	d
+item_cmp	utils/utils_conf.c	/^static int item_cmp( void * ptr1, void *ptr2 )$/;"	f	file:	signature:( void * ptr1, void *ptr2 )
+items	utils/utils_conf.h	/^	PtrList		items;		\/* pointer list of StrStrMap *\/$/;"	m	struct:tagConfUnit	access:public
+key	simserver.c	/^	char key[64];$/;"	m	struct:__anon2	file:	access:public
+key	utils/utils_conf.h	/^	char* 		key;$/;"	m	struct:tagConfUnit	access:public
+key	utils/utils_ptrlist.h	/^	char *key;$/;"	m	struct:tagStrStrPair	access:public
+key2id	utils/utils_mackey.c	/^int key2id( const BYTE *key_in, LPSTR id )$/;"	f	signature:( const BYTE *key_in, LPSTR id )
+key2id	utils/utils_mackey.h	/^int key2id( const char* key_in, unsigned char * id );$/;"	p	signature:( const char* key_in, unsigned char * id )
+level	utils/dbg_printf.c	/^	int level;		\/\/ output level, default is 3$/;"	m	struct:tagMonitor	file:	access:public
+list_lock	utils/utils_timer.c	/^static pthread_mutex_t	list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+list_lock	utils/utils_timer.c	36;"	d	file:
+list_unlock	utils/utils_timer.c	37;"	d	file:
+llOffset	utils/longtime.c	/^static LONGLONG llOffset = 0;$/;"	v	file:
+load_config	simserver.c	/^int load_config(const char *path)$/;"	f	signature:(const char *path)
+load_rtc_time	utils/rtcsync.c	/^static void load_rtc_time()$/;"	f	file:
+lprintf	rw_main.c	/^void lprintf(const char *fmt,...)$/;"	f	signature:(const char *fmt,...)
+lprintf	utils/dbg_printf.h	/^extern void lprintf(const char *fmt,...);$/;"	p	signature:(const char *fmt,...)
+lt_fire	utils/utils_timer.c	/^	_longtime	lt_fire;		\/\/ time to fired$/;"	m	struct:__anon4	file:	access:public
+ltrans	rw_main.c	/^void ltrans(const char *fmt,...)$/;"	f	signature:(const char *fmt,...)
+mac	utils/utils_netcfg.h	/^	unsigned char mac[8];		\/\/ we only use first 6 bytes.$/;"	m	struct:__anon5	access:public
+mac2string	utils/utils_net.c	/^const char *mac2string(unsigned char *hwaddr)$/;"	f	signature:(unsigned char *hwaddr)
+mac2string	utils/utils_net.h	/^extern const char *mac2string(unsigned char *hwaddr);$/;"	p	signature:(unsigned char *hwaddr)
+main	rw_main.c	/^int main(int argc, char * const argv[])$/;"	f	signature:(int argc, char * const argv[])
+main	utils/rtcsync.c	/^int main(int argc, char * const argv[])$/;"	f	signature:(int argc, char * const argv[])
+make_full_dir	utils/utils_file.c	/^int make_full_dir( const char * path )$/;"	f	signature:( const char * path )
+make_full_dir	utils/utils_file.h	/^extern int make_full_dir( const char * path );$/;"	p	signature:( const char * path )
+master_pid	rw_main.c	/^	int			master_pid;					\/\/ when running as daemon, this is pid of master process$/;"	m	struct:__anon1	file:	access:public
+max	utils/dbg_printf.c	72;"	d	file:
+max	utils/utils_net.c	40;"	d	file:
+mday	utils/rtcsync.c	/^      TIME_UNIT  mday;$/;"	m	struct:RTC_T	file:	access:public
+mime_type_pair	utils/utils_http.c	/^const StrStrPair mime_type_pair[] = {$/;"	v
+mimetype_initialize	utils/utils_http.c	/^int mimetype_initialize()$/;"	f
+mimetype_initialize	utils/utils_http.h	/^extern int mimetype_initialize( );$/;"	p	signature:( )
+mimetype_terminate	utils/utils_http.c	/^void mimetype_terminate( void )$/;"	f	signature:( void )
+mimetype_terminate	utils/utils_http.h	/^extern void mimetype_terminate( void );$/;"	p	signature:( void )
+min	utils/rtcsync.c	/^      TIME_UNIT  min;$/;"	m	struct:RTC_T	file:	access:public
+min	utils/utils_net.c	37;"	d	file:
+minute	utils/longtime.h	/^	int	minute;		\/\/ minutes in hour 0~59$/;"	m	struct:__anon6	access:public
+month	utils/longtime.h	/^	int month;			\/\/ 1 ~ 12$/;"	m	struct:__anon6	access:public
+month	utils/rtcsync.c	/^      TIME_UNIT  month;$/;"	m	struct:RTC_T	file:	access:public
+msec	utils/longtime.h	/^	int msec;			\/\/ milli-seconds 0~999$/;"	m	struct:__anon6	access:public
+msg	utils/utils_http.c	/^	char		msg[ PATH_MAX ];$/;"	m	struct:tagHttpConnection	file:	access:public
+mutex	dpchwork.c	/^static pthread_mutex_t mutex =PTHREAD_MUTEX_INITIALIZER ;$/;"	v	file:
+n	utils/utils_http.c	/^	int		n;$/;"	m	struct:tagIntStrPair	file:	access:public
+nCodeRange	utils/utils_gbutf8.c	/^static int nCodeRange[][2] = {$/;"	v	file:
+nConsoleLevel	utils/dbg_printf.c	/^static int nConsoleLevel = 0;		\/\/ default output level (console output)$/;"	v	file:
+nGBK2UC	utils/utils_gbutf8.c	/^int nGBK2UC=0;		\/\/ GBK to UC array entries$/;"	v
+nMaxLevel	utils/dbg_printf.c	/^static int nMaxLevel = 0;				\/\/ max level (console and remote)$/;"	v	file:
+nMaxRemoteLevel	utils/dbg_printf.c	/^static int nMaxRemoteLevel=0;		\/\/ max remote monitor level$/;"	v	file:
+nPageRange	utils/utils_gbutf8.c	/^static int nPageRange[][2] = {$/;"	v	file:
+nPageSize	utils/utils_gbutf8.c	/^static int nPageSize[] = {			\/\/ number of characters in a code page$/;"	v	file:
+nRemoteLevel	utils/dbg_printf.c	/^static int nRemoteLevel = 0;		\/\/ default monitor level for client$/;"	v	file:
+nUC2GBK	utils/utils_gbutf8.c	/^int nUC2GBK=0;		\/\/ UC to GBK array entry$/;"	v
+netmask	utils/utils_netcfg.h	/^	unsigned long	netmask;$/;"	m	struct:__anon5	access:public
+next	utils/utils_ptrlist.h	/^	POSITION	prev, next;$/;"	m	struct:tagPtrNode	access:public
+nreceived	simpleping.c	/^static int nsend=0,nreceived=0;$/;"	v	file:
+nsend	simpleping.c	/^static int nsend=0,nreceived=0;$/;"	v	file:
+online	simpleping.c	/^static int online = 0;$/;"	v	file:
+pMarker	utils/dbg_printf.c	/^static time_t	*pMarker = &tLastTouch;$/;"	v	file:
+pack	simpleping.c	/^static int pack(int pack_no)$/;"	f	file:	signature:(int pack_no)
+pack	simpleping.c	/^static int pack(int pack_no);$/;"	p	file:	signature:(int pack_no)
+param_default	rw_main.c	/^void param_default()$/;"	f
+param_load	rw_main.c	/^void param_load()$/;"	f
+param_show	rw_main.c	/^void param_show()$/;"	f
+param_update	rw_main.c	/^int param_update( NET_CONFIG_S *netcfg  )$/;"	f	signature:( NET_CONFIG_S *netcfg )
+param_write	rw_main.c	/^int param_write()$/;"	f
+peer_ip	utils/dbg_printf.c	/^	char peer_ip[INET6_ADDRSTRLEN];$/;"	m	struct:tagMonitor	file:	access:public
+peer_port	utils/dbg_printf.c	/^	int  peer_port;$/;"	m	struct:tagMonitor	file:	access:public
+pid	simpleping.c	/^static pid_t pid;$/;"	v	file:
+port_listen	utils/dbg_printf.c	/^static int port_listen;$/;"	v	file:
+pppd_call	simserver.c	/^static void pppd_call()$/;"	f	file:
+prepare_fdset	utils/dbg_printf.c	/^static int prepare_fdset( fd_set *set )$/;"	f	file:	signature:( fd_set *set )
+prev	utils/utils_ptrlist.h	/^	POSITION	prev, next;$/;"	m	struct:tagPtrNode	access:public
+probe_netscript	utils/utils_netcfg.c	/^static void probe_netscript()$/;"	f	file:
+ptr	utils/utils_ptrlist.h	/^	void*		ptr;$/;"	m	struct:tagPtrNode	access:public
+ptrcmp	utils/utils_ptrlist.h	/^	__compar_fn_t	ptrcmp;		\/\/ -1: ptr1 < ptr2, 0: ptr1==ptr2, 1: ptr1 > ptr2$/;"	m	struct:tagPtrList	access:public
+radix5	utils/utils_mackey.c	/^static int radix5( char code )$/;"	f	file:	signature:( char code )
+radix5_r	utils/utils_mackey.c	/^static int radix5_r( char ch )$/;"	f	file:	signature:( char ch )
+read_conf	simserver.c	/^static void read_conf(const char *path, char *buffer, int size  )$/;"	f	file:	signature:(const char *path, char *buffer, int size )
+read_file	dpchwork.c	/^static int read_file(const char *path, char *buffer, int size )$/;"	f	file:	signature:(const char *path, char *buffer, int size )
+read_text_file	utils/utils_file.c	/^char* read_text_file( const char * filepath )$/;"	f	signature:( const char * filepath )
+read_text_file	utils/utils_file.h	/^extern char* read_text_file( const char * filepath );$/;"	p	signature:( const char * filepath )
+read_time	utils/rtcsync.c	/^static int read_time(rtc_time *rtc_data)$/;"	f	file:	signature:(rtc_time *rtc_data)
+rear	utils/utils_ptrlist.h	/^	POSITION	head, rear;$/;"	m	struct:tagPtrList	access:public
+recv_packet	simpleping.c	/^static void recv_packet()$/;"	f	file:
+recv_packet	simpleping.c	/^static void recv_packet(void);$/;"	p	file:	signature:(void)
+recvpacket	simpleping.c	/^static char recvpacket[PACKET_SIZE];$/;"	v	file:
+remote_ip	simserver.c	/^static char remote_ip[16];$/;"	v	file:
+route_reset	simserver.c	/^static void route_reset()$/;"	f	file:
+rtc_load	utils/rtcsync.c	/^int rtc_load()$/;"	f
+rtc_load	utils/rtcsync.h	/^int rtc_load();$/;"	p	signature:()
+rtc_read	utils/rtcsync.c	/^int rtc_read(struct tm *tm)$/;"	f	signature:(struct tm *tm)
+rtc_read	utils/rtcsync.h	/^int rtc_read(struct tm *tm);$/;"	p	signature:(struct tm *tm)
+rtc_sync	utils/rtcsync.c	/^int rtc_sync()$/;"	f
+rtc_sync	utils/rtcsync.h	/^int rtc_sync();$/;"	p	signature:()
+rtc_time	utils/rtcsync.c	/^} rtc_time;$/;"	t	typeref:struct:RTC_T	file:
+rtc_write	utils/rtcsync.c	/^int rtc_write(const struct tm *tm)$/;"	f	signature:(const struct tm *tm)
+rtc_write	utils/rtcsync.h	/^int rtc_write(const struct tm *tm);$/;"	p	signature:(const struct tm *tm)
+rtctime2systime	utils/rtcsync.c	/^static void rtctime2systime(const rtc_time *rtc, struct tm *tm)$/;"	f	file:	signature:(const rtc_time *rtc, struct tm *tm)
+rw_attach_shm	rw_main.c	/^int rw_attach_shm()$/;"	f
+rw_create_shm	rw_main.c	/^int rw_create_shm()$/;"	f
+rw_daemon_init	rw_main.c	/^static int rw_daemon_init( void )$/;"	f	file:	signature:( void )
+rw_detach_shm	rw_main.c	/^void rw_detach_shm()$/;"	f
+rw_engine_run	rw_main.c	/^	int			rw_engine_run;		\/\/ lpnr engine process is running $/;"	m	struct:__anon1	file:	access:public
+rw_init_shm	rw_main.c	/^void rw_init_shm()$/;"	f
+rw_power_on	rw_main.c	/^	int			rw_power_on;$/;"	m	struct:__anon1	file:	access:public
+rw_server_run	rw_main.c	/^	int			rw_server_run;		\/\/ lpnr running control 1 is run, 0 is stop.$/;"	m	struct:__anon1	file:	access:public
+rw_show_shm	rw_main.c	/^void rw_show_shm()$/;"	f
+rw_stop_server	rw_main.c	/^static void rw_stop_server()$/;"	f	file:
+rw_stop_server	rw_main.c	/^static void rw_stop_server();$/;"	p	file:
+sa_childdead	rw_main.c	/^void sa_childdead( int signo )$/;"	f	signature:( int signo )
+sec	utils/rtcsync.c	/^      TIME_UNIT  sec;$/;"	m	struct:RTC_T	file:	access:public
+second	utils/longtime.h	/^	int second;		\/\/ seconds in minutes$/;"	m	struct:__anon6	access:public
+sem_id	utils/utils_shm.h	/^	int		sem_id;		\/\/ semaphore ID for asynchronize control$/;"	m	struct:tagShmContext	access:public
+semun	utils/utils_shm.c	/^       union semun {$/;"	u	file:
+semun::__buf	utils/utils_shm.c	/^             struct seminfo *__buf;    \/* buffer for IPC_INFO *\/$/;"	m	union:semun	typeref:struct:semun::seminfo	file:	access:public
+semun::array	utils/utils_shm.c	/^             unsigned short *array;    \/* array for GETALL, SETALL *\/$/;"	m	union:semun	file:	access:public
+semun::buf	utils/utils_shm.c	/^             struct semid_ds *buf;     \/* buffer for IPC_STAT, IPC_SET *\/$/;"	m	union:semun	typeref:struct:semun::semid_ds	file:	access:public
+semun::val	utils/utils_shm.c	/^             int val;                  \/* value for SETVAL *\/$/;"	m	union:semun	file:	access:public
+send_packet	simpleping.c	/^static void send_packet()$/;"	f	file:
+send_packet	simpleping.c	/^static void send_packet(void);$/;"	p	file:	signature:(void)
+sendpacket	simpleping.c	/^static char sendpacket[PACKET_SIZE];$/;"	v	file:
+setDefSystemTime	rw_main.c	/^static void setDefSystemTime()$/;"	f	file:
+set_mac_addr	utils/utils_net.c	/^int set_mac_addr( const char *ifname, unsigned char *ifaddr )$/;"	f	signature:( const char *ifname, unsigned char *ifaddr )
+set_mac_addr	utils/utils_net.h	/^extern int set_mac_addr( const char *ifname, unsigned char *hwaddr );$/;"	p	signature:( const char *ifname, unsigned char *hwaddr )
+set_netaddr	utils/utils_net.c	/^int set_netaddr( const char *ifname, SOCKADDR_IN *netaddr )$/;"	f	signature:( const char *ifname, SOCKADDR_IN *netaddr )
+set_netaddr	utils/utils_net.h	/^extern int set_netaddr( const char *ifname, SOCKADDR_IN *netaddr );$/;"	p	signature:( const char *ifname, SOCKADDR_IN *netaddr )
+set_netmask	utils/utils_net.c	/^int set_netmask( const char *ifname, SOCKADDR_IN *netmask )$/;"	f	signature:( const char *ifname, SOCKADDR_IN *netmask )
+set_netmask	utils/utils_net.h	/^extern int set_netmask( const char *ifname, SOCKADDR_IN *netmask );$/;"	p	signature:( const char *ifname, SOCKADDR_IN *netmask )
+set_network_config	utils/utils_netcfg.c	/^void set_network_config(NET_CONFIG_S *pnewconf, NET_CONFIG_S *poldconf)$/;"	f	signature:(NET_CONFIG_S *pnewconf, NET_CONFIG_S *poldconf)
+set_network_config	utils/utils_netcfg.h	/^extern void set_network_config(NET_CONFIG_S *pnewconf, NET_CONFIG_S *poldconf);$/;"	p	signature:(NET_CONFIG_S *pnewconf, NET_CONFIG_S *poldconf)
+set_sim_node	simserver.c	/^static int set_sim_node()$/;"	f	file:
+shm_id	utils/utils_shm.h	/^	int		shm_id;		\/\/ shared memory ID$/;"	m	struct:tagShmContext	access:public
+shm_is_attached	rw_main.c	133;"	d	file:
+shm_ptr	utils/utils_shm.h	/^	void *shm_ptr;	\/\/ shared memory virtual address.$/;"	m	struct:tagShmContext	access:public
+shm_reset_engine	rw_main.c	135;"	d	file:
+shm_size	utils/utils_shm.h	/^	int		shm_size;	\/\/ shared memory size in number of bytes$/;"	m	struct:tagShmContext	access:public
+show_copyright	rw_main.c	/^void show_copyright( void )$/;"	f	signature:( void )
+show_help	rw_main.c	/^static void show_help( const char *pname )$/;"	f	file:	signature:( const char *pname )
+show_rtc_time	utils/rtcsync.c	/^static void show_rtc_time()$/;"	f	file:
+signal_handle	rw_main.c	/^static void signal_handle()$/;"	f	file:
+sim_node_exist	simserver.c	/^static int sim_node_exist()$/;"	f	file:
+sn2ifaddr	utils/utils_mackey.c	/^void sn2ifaddr( WORD *sn, BYTE *ifaddr )$/;"	f	signature:( WORD *sn, BYTE *ifaddr )
+sn2ifaddr	utils/utils_mackey.h	/^void sn2ifaddr( unsigned short *sn, unsigned char *ifaddr );$/;"	p	signature:( unsigned short *sn, unsigned char *ifaddr )
+sock_accept	utils/utils_net.c	/^int sock_accept( int fd_listen )$/;"	f	signature:( int fd_listen )
+sock_accept	utils/utils_net.h	/^extern int sock_accept( int fd_listen );$/;"	p	signature:( int fd_listen )
+sock_close	utils/utils_net.h	102;"	d
+sock_connect	utils/utils_net.c	/^int sock_connect( const char *host, int port )$/;"	f	signature:( const char *host, int port )
+sock_connect	utils/utils_net.h	/^extern int sock_connect( const char *host, int port );$/;"	p	signature:( const char *host, int port )
+sock_connect0	utils/utils_net.c	/^int sock_connect0( unsigned long ul_addr, int port )$/;"	f	signature:( unsigned long ul_addr, int port )
+sock_connect0	utils/utils_net.h	/^extern int sock_connect0( unsigned long ul_addr, int port );$/;"	p	signature:( unsigned long ul_addr, int port )
+sock_dataready	utils/utils_net.c	/^int sock_dataready( int fd, int tout )$/;"	f	signature:( int fd, int tout )
+sock_dataready	utils/utils_net.h	/^extern int sock_dataready( int fd, int tout );$/;"	p	signature:( int fd, int tout )
+sock_drain	utils/utils_net.c	/^int sock_drain( int fd )$/;"	f	signature:( int fd )
+sock_drain	utils/utils_net.h	/^extern int sock_drain( int fd );$/;"	p	signature:( int fd )
+sock_drain_until	utils/utils_net.c	/^int sock_drain_until( int fd, unsigned char *soh, int ns )$/;"	f	signature:( int fd, unsigned char *soh, int ns )
+sock_drain_until	utils/utils_net.h	/^extern int sock_drain_until( int fd, unsigned char *soh, int ns );$/;"	p	signature:( int fd, unsigned char *soh, int ns )
+sock_getc	utils/utils_net.c	/^int sock_getc( int sock, int tout )$/;"	f	signature:( int sock, int tout )
+sock_getc	utils/utils_net.h	/^extern int sock_getc(int fd, int tout);$/;"	p	signature:(int fd, int tout)
+sock_getpeeraddr	utils/utils_net.c	/^int sock_getpeeraddr(int fd, struct sockaddr *saddr)$/;"	f	signature:(int fd, struct sockaddr *saddr)
+sock_getpeeraddr	utils/utils_net.h	/^extern int sock_getpeeraddr(int fd, SOCKADDR *saddr);$/;"	p	signature:(int fd, SOCKADDR *saddr)
+sock_getpeername	utils/utils_net.c	/^const char* sock_getpeername( int fd, int *port )$/;"	f	signature:( int fd, int *port )
+sock_getpeername	utils/utils_net.h	/^extern const char* sock_getpeername( int fd, int *port );$/;"	p	signature:( int fd, int *port )
+sock_iqueue	utils/utils_net.c	/^int sock_iqueue(int fd)$/;"	f	signature:(int fd)
+sock_iqueue	utils/utils_net.h	/^extern int sock_iqueue(int fd);		\/\/ any queued input data (length of data)$/;"	p	signature:(int fd)
+sock_is_connected	utils/utils_net.c	/^int sock_is_connected( int fd )$/;"	f	signature:( int fd )
+sock_is_connected	utils/utils_net.h	/^extern int sock_is_connected( int fd );$/;"	p	signature:( int fd )
+sock_listen	utils/utils_net.c	/^int sock_listen( int port, const char *ipbind, int backlog )$/;"	f	signature:( int port, const char *ipbind, int backlog )
+sock_listen	utils/utils_net.h	/^extern int sock_listen( int port, const char *ipbind, int backlog );$/;"	p	signature:( int port, const char *ipbind, int backlog )
+sock_oqueue	utils/utils_net.c	/^int sock_oqueue(int fd)$/;"	f	signature:(int fd)
+sock_oqueue	utils/utils_net.h	/^extern int sock_oqueue(int fd);		\/\/ any pending output data (bytes of pending data)$/;"	p	signature:(int fd)
+sock_peek_line	utils/utils_net.h	65;"	d
+sock_peek_until	utils/utils_net.c	/^int sock_peek_until(int fd, char* buffer, int buf_size, int eol)$/;"	f	signature:(int fd, char* buffer, int buf_size, int eol)
+sock_peek_until	utils/utils_net.h	/^extern int sock_peek_until(int fd, char* buffer, int buf_size, int eol);$/;"	p	signature:(int fd, char* buffer, int buf_size, int eol)
+sock_read	utils/utils_net.c	/^int sock_read( int fd, void* buffer, int buf_size )$/;"	f	signature:( int fd, void* buffer, int buf_size )
+sock_read	utils/utils_net.h	/^extern int sock_read(int fd, void* buffer, int buf_size);$/;"	p	signature:(int fd, void* buffer, int buf_size)
+sock_read_line	utils/utils_net.h	64;"	d
+sock_read_n_bytes	utils/utils_net.c	/^int sock_read_n_bytes(int fd, void* buffer, int n)$/;"	f	signature:(int fd, void* buffer, int n)
+sock_read_n_bytes	utils/utils_net.h	/^extern int sock_read_n_bytes(int fd, void* buffer, int n);$/;"	p	signature:(int fd, void* buffer, int n)
+sock_read_until	utils/utils_net.c	/^int sock_read_until(int fd, char* buffer, int buf_size, int eol)$/;"	f	signature:(int fd, char* buffer, int buf_size, int eol)
+sock_read_until	utils/utils_net.h	/^extern int sock_read_until(int fd, char *buffer, int buf_size, int eol);$/;"	p	signature:(int fd, char *buffer, int buf_size, int eol)
+sock_set_timeout	utils/utils_net.c	/^int sock_set_timeout( long time_ms )$/;"	f	signature:( long time_ms )
+sock_set_timeout	utils/utils_net.h	/^extern int sock_set_timeout( long time_ms );$/;"	p	signature:( long time_ms )
+sock_skip_n_bytes	utils/utils_net.c	/^int sock_skip_n_bytes(int fd, int n)$/;"	f	signature:(int fd, int n)
+sock_skip_n_bytes	utils/utils_net.h	/^extern int sock_skip_n_bytes(int fd, int n);$/;"	p	signature:(int fd, int n)
+sock_udp_bind	utils/utils_net.h	80;"	d
+sock_udp_bindhost	utils/utils_net.c	/^int sock_udp_bindhost(int port,const char *host)$/;"	f	signature:(int port,const char *host)
+sock_udp_bindhost	utils/utils_net.h	/^extern int sock_udp_bindhost(int port, const char *host);$/;"	p	signature:(int port, const char *host)
+sock_udp_broadcast	utils/utils_net.c	/^int sock_udp_broadcast( int fd, int enable )$/;"	f	signature:( int fd, int enable )
+sock_udp_broadcast	utils/utils_net.h	/^extern int sock_udp_broadcast( int fd, int enable );	\/\/ enable: 1 yes, 0 no$/;"	p	signature:( int fd, int enable )
+sock_udp_open	utils/utils_net.c	/^int sock_udp_open()$/;"	f
+sock_udp_open	utils/utils_net.h	/^extern int sock_udp_open();$/;"	p	signature:()
+sock_udp_recv	utils/utils_net.h	90;"	d
+sock_udp_recv2	utils/utils_net.c	/^int sock_udp_recv2( int fd, void *buf, int size, SOCKADDR *src,int *paddrlen )$/;"	f	signature:( int fd, void *buf, int size, SOCKADDR *src,int *paddrlen )
+sock_udp_recv2	utils/utils_net.h	/^extern int sock_udp_recv2( int fd, void *buf, int size, SOCKADDR *saIn, int *addrlen );$/;"	p	signature:( int fd, void *buf, int size, SOCKADDR *saIn, int *addrlen )
+sock_udp_send	utils/utils_net.c	/^int sock_udp_send( const char *ip, int port, const void* msg, int len )$/;"	f	signature:( const char *ip, int port, const void* msg, int len )
+sock_udp_send	utils/utils_net.h	/^extern int sock_udp_send( const char *ip, int port, const void* msg, int len );$/;"	p	signature:( const char *ip, int port, const void* msg, int len )
+sock_udp_send0	utils/utils_net.c	/^int sock_udp_send0( int fd, SOCKADDR_IN *paddr, int port, const void* msg, int len )$/;"	f	signature:( int fd, SOCKADDR_IN *paddr, int port, const void* msg, int len )
+sock_udp_send0	utils/utils_net.h	/^extern int sock_udp_send0( int fd, SOCKADDR_IN *paddr, int port, const void *msg, int len );$/;"	p	signature:( int fd, SOCKADDR_IN *paddr, int port, const void *msg, int len )
+sock_udp_sendX	utils/utils_net.c	/^int sock_udp_sendX( int fd, SOCKADDR_IN *paddr, int ndst, const void* msg, int len )$/;"	f	signature:( int fd, SOCKADDR_IN *paddr, int ndst, const void* msg, int len )
+sock_udp_sendX	utils/utils_net.h	/^extern int sock_udp_sendX( int fd, SOCKADDR_IN *paddr, int ndst, const void *msg, int len );$/;"	p	signature:( int fd, SOCKADDR_IN *paddr, int ndst, const void *msg, int len )
+sock_udp_timeout	utils/utils_net.c	/^int sock_udp_timeout( int sock, int nTimeOut )$/;"	f	signature:( int sock, int nTimeOut )
+sock_udp_timeout	utils/utils_net.h	/^extern int sock_udp_timeout( int sock, int nTimeOut );$/;"	p	signature:( int sock, int nTimeOut )
+sock_wait_for_io_or_timeout	utils/utils_net.c	/^int sock_wait_for_io_or_timeout(int fd, int for_read, long timeout)$/;"	f	signature:(int fd, int for_read, long timeout)
+sock_write	utils/utils_net.c	/^int sock_write( int fd, const void* buffer, int buf_size )$/;"	f	signature:( int fd, const void* buffer, int buf_size )
+sock_write	utils/utils_net.h	/^extern int sock_write(int fd, const void* buffer, int buf_size);$/;"	p	signature:(int fd, const void* buffer, int buf_size)
+sock_write_n_bytes	utils/utils_net.c	/^int sock_write_n_bytes(int fd, void* buffer, int size)$/;"	f	signature:(int fd, void* buffer, int size)
+sock_write_n_bytes	utils/utils_net.h	/^extern int sock_write_n_bytes(int fd, void *buffer, int n);$/;"	p	signature:(int fd, void *buffer, int n)
+sockaddr_in_tostring	utils/utils_net.c	/^const char *sockaddr_in_tostring(SOCKADDR_IN *addr, int withport)$/;"	f	signature:(SOCKADDR_IN *addr, int withport)
+sockaddr_in_tostring	utils/utils_net.h	/^extern const char *sockaddr_in_tostring(SOCKADDR_IN *addr, int withport);$/;"	p	signature:(SOCKADDR_IN *addr, int withport)
+sockaddr_tostring	utils/utils_net.h	149;"	d
+sockaddr_v6to4	utils/utils_net.h	192;"	d
+sockfd	simpleping.c	/^static int sockfd,datalen=56;$/;"	v	file:
+sparse_line	simserver.c	/^static int sparse_line( const char *srcbuf , char *buf, char *key, char *value)$/;"	f	file:	signature:( const char *srcbuf , char *buf, char *key, char *value)
+statistics	simpleping.c	/^static void statistics(int signo);$/;"	p	file:	signature:(int signo)
+statistics	simpleping.c	/^void statistics(int signo)$/;"	f	signature:(int signo)
+str	utils/utils_http.c	/^	char	*str;$/;"	m	struct:tagIntStrPair	file:	access:public
+str_b64dec	utils/utils_str.c	/^int  str_b64dec(const char* string, char *buf, int bufsize)$/;"	f	signature:(const char* string, char *buf, int bufsize)
+str_b64dec	utils/utils_str.h	/^extern int str_b64dec(const char* string, char *buf, int bufsize);$/;"	p	signature:(const char* string, char *buf, int bufsize)
+str_b64enc	utils/utils_str.c	/^int str_b64enc(const char *src, char *buf, int bufsize )$/;"	f	signature:(const char *src, char *buf, int bufsize )
+str_b64enc	utils/utils_str.h	/^extern int str_b64enc(const char *src, char *buf, int bufsize );$/;"	p	signature:(const char *src, char *buf, int bufsize )
+strbreak	utils/utils_str.c	/^int strbreak(const char *src, char *args[], int arg_limit)$/;"	f	signature:(const char *src, char *args[], int arg_limit)
+strbreak	utils/utils_str.h	/^extern int strbreak(const char *src, char *args[], int arg_limit);$/;"	p	signature:(const char *src, char *args[], int arg_limit)
+strcasecmp	utils/utils_ptrlist.c	14;"	d	file:
+strcasestartwith	utils/utils_str.c	/^int strcasestartwith(const char *string, const char *prefix, int minmatch, char ** pleft)$/;"	f	signature:(const char *string, const char *prefix, int minmatch, char ** pleft)
+strcasestartwith	utils/utils_str.h	/^extern int strcasestartwith(const char *string, const char *prefix, int minmatch, char ** pleft);$/;"	p	signature:(const char *string, const char *prefix, int minmatch, char ** pleft)
+strdupline	utils/utils_str.c	/^char *strdupline( const char *src, char **next_pos )$/;"	f	signature:( const char *src, char **next_pos )
+strdupline	utils/utils_str.h	/^extern char *strdupline( const char *src, char **next_pos );$/;"	p	signature:( const char *src, char **next_pos )
+strgbktouc	utils/utils_gbutf8.c	/^int strgbktouc(const char *gbk, wchar_t *uc)$/;"	f	signature:(const char *gbk, wchar_t *uc)
+strgbktouc	utils/utils_gbutf8.h	/^int strgbktouc(const char *gbk, wchar_t *uc);$/;"	p	signature:(const char *gbk, wchar_t *uc)
+strgettoken	utils/utils_str.c	/^int strgettoken(const char *string, char *buf, char **pleft)$/;"	f	signature:(const char *string, char *buf, char **pleft)
+strgettoken	utils/utils_str.h	/^extern int strgettoken(const char *string, char *buf, char **pleft);$/;"	p	signature:(const char *string, char *buf, char **pleft)
+strgettokenpair	utils/utils_str.c	/^int strgettokenpair( const char *src, char *keyword, char *operand, char **pleft )$/;"	f	signature:( const char *src, char *keyword, char *operand, char **pleft )
+strgettokenpair	utils/utils_str.h	/^extern int strgettokenpair( const char *src, char *keyword, char *operand, char **pleft );$/;"	p	signature:( const char *src, char *keyword, char *operand, char **pleft )
+strgettokenpair2	utils/utils_str.c	/^int strgettokenpair2( const char *src, char *keyword, char *operand, int *pVal1, int *pVal2, char **pleft )$/;"	f	signature:( const char *src, char *keyword, char *operand, int *pVal1, int *pVal2, char **pleft )
+strgettokenpair2	utils/utils_str.h	/^extern int strgettokenpair2( const char *src, char *keyword, char *operand, int *pVal1, int *pVal2, char **pleft );$/;"	p	signature:( const char *src, char *keyword, char *operand, int *pVal1, int *pVal2, char **pleft )
+strgettokenpairN	utils/utils_str.c	/^int strgettokenpairN( const char *src, char *keyword, char *operand, int Val[], int *vlimit, char **pleft )$/;"	f	signature:( const char *src, char *keyword, char *operand, int Val[], int *vlimit, char **pleft )
+strgettokenpairN	utils/utils_str.h	/^extern int strgettokenpairN( const char *src, char *keyword, char *operand, int Val[], int *vlimit, char **pleft );$/;"	p	signature:( const char *src, char *keyword, char *operand, int Val[], int *vlimit, char **pleft )
+strgetword	utils/utils_str.c	/^int strgetword( const char *string, char *buf, int size, char **pleft)$/;"	f	signature:( const char *string, char *buf, int size, char **pleft)
+strgetword	utils/utils_str.h	/^extern int strgetword( const char *string, char *buf, int size, char **pleft);$/;"	p	signature:( const char *string, char *buf, int size, char **pleft)
+strhanzi2pinying	utils/utils_str.h	/^extern int strhanzi2pinying( const char *platenum, char *out  );$/;"	p	signature:( const char *platenum, char *out )
+stridxinargs	utils/utils_str.c	/^int stridxinargs( const char *key, int minmatch,...)$/;"	f	signature:( const char *key, int minmatch,...)
+stridxinargs	utils/utils_str.h	/^extern int stridxinargs( const char *key, int minmatch,...);$/;"	p	signature:( const char *key, int minmatch,...)
+stridxinarray	utils/utils_str.c	/^extern int stridxinarray( const char *key, int minmatch, const char * array[], int size)$/;"	f	signature:( const char *key, int minmatch, const char * array[], int size)
+stridxinarray	utils/utils_str.h	/^extern int stridxinarray( const char *key, int minmatch, const char *array[], int size);$/;"	p	signature:( const char *key, int minmatch, const char *array[], int size)
+strisboolean	utils/utils_str.c	/^int strisboolean( const char *string, int *boolval )$/;"	f	signature:( const char *string, int *boolval )
+strisboolean	utils/utils_str.h	/^extern int strisboolean( const char *string, int *boolval );$/;"	p	signature:( const char *string, int *boolval )
+strisfloat	utils/utils_str.c	/^int strisfloat( const char *string, float *number )$/;"	f	signature:( const char *string, float *number )
+strisfloat	utils/utils_str.h	/^extern int strisfloat( const char *string, float *num );$/;"	p	signature:( const char *string, float *num )
+strisnumber	utils/utils_str.c	/^int strisnumber( const char *string, int *number )$/;"	f	signature:( const char *string, int *number )
+strisnumber	utils/utils_str.h	/^extern int strisnumber( const char *string, int *number );$/;"	p	signature:( const char *string, int *number )
+strrelease	utils/utils_str.c	/^void strrelease(int argc, char *args[])$/;"	f	signature:(int argc, char *args[])
+strrelease	utils/utils_str.h	/^extern void strrelease(int argc, char *args[]);$/;"	p	signature:(int argc, char *args[])
+strrowcol	utils/utils_str.c	/^int strrowcol( const char *src, int *cols )$/;"	f	signature:( const char *src, int *cols )
+strrowcol	utils/utils_str.h	/^extern int strrowcol( const char *src, int *cols );$/;"	p	signature:( const char *src, int *cols )
+strstartwith	utils/utils_str.c	/^int strstartwith(const char *string, const char *prefix, int minmatch, char ** pleft)$/;"	f	signature:(const char *string, const char *prefix, int minmatch, char ** pleft)
+strstartwith	utils/utils_str.h	/^extern int strstartwith(const char *string, const char *prefix, int minmatch, char ** pleft);$/;"	p	signature:(const char *string, const char *prefix, int minmatch, char ** pleft)
+structogbk	utils/utils_gbutf8.c	/^int structogbk(wchar_t *uc, int nwchar, char *gbk)$/;"	f	signature:(wchar_t *uc, int nwchar, char *gbk)
+structogbk	utils/utils_gbutf8.h	/^int structogbk(wchar_t *uc, int nwchar, char *gbk);$/;"	p	signature:(wchar_t *uc, int nwchar, char *gbk)
+subunits	utils/utils_conf.h	/^	PtrList		subunits;	\/* pointer list of ConfUnit *\/$/;"	m	struct:tagConfUnit	access:public
+sync_rtc_time	utils/rtcsync.c	/^static void sync_rtc_time()$/;"	f	file:
+systime2rtctime	utils/rtcsync.c	/^static void systime2rtctime(const struct tm *tm, rtc_time *rtc)$/;"	f	file:	signature:(const struct tm *tm, rtc_time *rtc)
+tLastTouch	utils/dbg_printf.c	/^static time_t  tLastTouch = 0;$/;"	v	file:
+t_period	utils/utils_timer.c	/^	int		t_period;				\/\/ 0 for one-shot timer$/;"	m	struct:__anon4	file:	access:public
+tagConfUnit	utils/utils_conf.h	/^typedef struct tagConfUnit {$/;"	s
+tagConfUnit::items	utils/utils_conf.h	/^	PtrList		items;		\/* pointer list of StrStrMap *\/$/;"	m	struct:tagConfUnit	access:public
+tagConfUnit::key	utils/utils_conf.h	/^	char* 		key;$/;"	m	struct:tagConfUnit	access:public
+tagConfUnit::subunits	utils/utils_conf.h	/^	PtrList		subunits;	\/* pointer list of ConfUnit *\/$/;"	m	struct:tagConfUnit	access:public
+tagHttpConnection	utils/utils_http.c	/^typedef struct tagHttpConnection {$/;"	s	file:
+tagHttpConnection::code	utils/utils_http.c	/^	int			code;$/;"	m	struct:tagHttpConnection	file:	access:public
+tagHttpConnection::fd	utils/utils_http.c	/^	int			fd;$/;"	m	struct:tagHttpConnection	file:	access:public
+tagHttpConnection::headers	utils/utils_http.c	/^	StrMap		headers;$/;"	m	struct:tagHttpConnection	file:	access:public
+tagHttpConnection::msg	utils/utils_http.c	/^	char		msg[ PATH_MAX ];$/;"	m	struct:tagHttpConnection	file:	access:public
+tagIntStrPair	utils/utils_http.c	/^typedef struct tagIntStrPair {$/;"	s	file:
+tagIntStrPair::n	utils/utils_http.c	/^	int		n;$/;"	m	struct:tagIntStrPair	file:	access:public
+tagIntStrPair::str	utils/utils_http.c	/^	char	*str;$/;"	m	struct:tagIntStrPair	file:	access:public
+tagMonitor	utils/dbg_printf.c	/^typedef struct tagMonitor {$/;"	s	file:
+tagMonitor::fd	utils/dbg_printf.c	/^	int	fd;				\/\/ socket$/;"	m	struct:tagMonitor	file:	access:public
+tagMonitor::level	utils/dbg_printf.c	/^	int level;		\/\/ output level, default is 3$/;"	m	struct:tagMonitor	file:	access:public
+tagMonitor::peer_ip	utils/dbg_printf.c	/^	char peer_ip[INET6_ADDRSTRLEN];$/;"	m	struct:tagMonitor	file:	access:public
+tagMonitor::peer_port	utils/dbg_printf.c	/^	int  peer_port;$/;"	m	struct:tagMonitor	file:	access:public
+tagPtrList	utils/utils_ptrlist.h	/^typedef struct tagPtrList {$/;"	s
+tagPtrList::count	utils/utils_ptrlist.h	/^	int		count;$/;"	m	struct:tagPtrList	access:public
+tagPtrList::head	utils/utils_ptrlist.h	/^	POSITION	head, rear;$/;"	m	struct:tagPtrList	access:public
+tagPtrList::ptrcmp	utils/utils_ptrlist.h	/^	__compar_fn_t	ptrcmp;		\/\/ -1: ptr1 < ptr2, 0: ptr1==ptr2, 1: ptr1 > ptr2$/;"	m	struct:tagPtrList	access:public
+tagPtrList::rear	utils/utils_ptrlist.h	/^	POSITION	head, rear;$/;"	m	struct:tagPtrList	access:public
+tagPtrNode	utils/utils_ptrlist.h	/^struct tagPtrNode {$/;"	s
+tagPtrNode::next	utils/utils_ptrlist.h	/^	POSITION	prev, next;$/;"	m	struct:tagPtrNode	access:public
+tagPtrNode::prev	utils/utils_ptrlist.h	/^	POSITION	prev, next;$/;"	m	struct:tagPtrNode	access:public
+tagPtrNode::ptr	utils/utils_ptrlist.h	/^	void*		ptr;$/;"	m	struct:tagPtrNode	access:public
+tagShmContext	utils/utils_shm.h	/^typedef struct tagShmContext$/;"	s
+tagShmContext::sem_id	utils/utils_shm.h	/^	int		sem_id;		\/\/ semaphore ID for asynchronize control$/;"	m	struct:tagShmContext	access:public
+tagShmContext::shm_id	utils/utils_shm.h	/^	int		shm_id;		\/\/ shared memory ID$/;"	m	struct:tagShmContext	access:public
+tagShmContext::shm_ptr	utils/utils_shm.h	/^	void *shm_ptr;	\/\/ shared memory virtual address.$/;"	m	struct:tagShmContext	access:public
+tagShmContext::shm_size	utils/utils_shm.h	/^	int		shm_size;	\/\/ shared memory size in number of bytes$/;"	m	struct:tagShmContext	access:public
+tagStrStrPair	utils/utils_ptrlist.h	/^typedef struct tagStrStrPair {$/;"	s
+tagStrStrPair::key	utils/utils_ptrlist.h	/^	char *key;$/;"	m	struct:tagStrStrPair	access:public
+tagStrStrPair::value	utils/utils_ptrlist.h	/^	char *value;$/;"	m	struct:tagStrStrPair	access:public
+thread	dpchwork.c	/^static pthread_t thread;$/;"	v	file:
+thread_cond	utils/dbg_printf.c	/^static pthread_cond_t		thread_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+thread_lock	utils/dbg_printf.c	/^static pthread_mutex_t	thread_lock = PTHREAD_MUTEX_INITIALIZER;	$/;"	v	file:
+thread_timewait	utils/dbg_printf.c	/^static void thread_timewait( int usec )$/;"	f	file:	signature:( int usec )
+timeCheckLongTime	utils/longtime.h	/^static int inline timeCheckLongTime(_longtime lt)$/;"	f	signature:(_longtime lt)
+timeFormatLongTime	utils/longtime.c	/^char *timeFormatLongTime( _longtime t, char *buffer )$/;"	f	signature:( _longtime t, char *buffer )
+timeFormatLongTime	utils/longtime.h	/^char *timeFormatLongTime( _longtime t, char *buffer );	\/\/ buffer must have space >= LONG_TIME_FORMAT_SIZE$/;"	p	signature:( _longtime t, char *buffer )
+timeFormatLongTimeEx	utils/longtime.c	/^char *timeFormatLongTimeEx(_longtime t, char *buffer, int format)$/;"	f	signature:(_longtime t, char *buffer, int format)
+timeFormatLongTimeEx	utils/longtime.h	/^char *timeFormatLongTimeEx(_longtime t, char *buffer, int format);$/;"	p	signature:(_longtime t, char *buffer, int format)
+timeGetBODTime	utils/longtime.c	/^time_t timeGetBODTime( time_t t )$/;"	f	signature:( time_t t )
+timeGetBODTime	utils/longtime.h	/^time_t timeGetBODTime( time_t );		\/\/ get begin of day (localtime)$/;"	p	signature:( time_t )
+timeGetCTMFromStr	utils/longtime.c	/^int timeGetCTMFromStr(const char*strTime, PCTM ctm)$/;"	f	signature:(const char*strTime, PCTM ctm)
+timeGetCTMFromStr	utils/longtime.h	/^int timeGetCTMFromStr(const char*strTime, PCTM ctm);$/;"	p	signature:(const char*strTime, PCTM ctm)
+timeGetDays	utils/longtime.c	/^unsigned long timeGetDays( _longtime t )$/;"	f	signature:( _longtime t )
+timeGetDays	utils/longtime.h	/^unsigned long timeGetDays( _longtime t );$/;"	p	signature:( _longtime t )
+timeGetEODTime	utils/longtime.c	/^time_t timeGetEODTime( time_t t )$/;"	f	signature:( time_t t )
+timeGetEODTime	utils/longtime.h	/^time_t timeGetEODTime( time_t );		\/\/ get end of day$/;"	p	signature:( time_t )
+timeGetLongTime	utils/longtime.c	/^_longtime timeGetLongTime()$/;"	f
+timeGetLongTime	utils/longtime.h	/^_longtime timeGetLongTime();$/;"	p	signature:()
+timeGetMSec	utils/longtime.c	/^unsigned long timeGetMSec( _longtime t )$/;"	f	signature:( _longtime t )
+timeGetMSec	utils/longtime.h	/^unsigned long timeGetMSec( _longtime t );$/;"	p	signature:( _longtime t )
+timeGetMonotonicTime	utils/longtime.c	/^_longtime timeGetMonotonicTime()$/;"	f
+timeGetMonotonicTime	utils/longtime.h	/^_longtime timeGetMonotonicTime();		\/\/ get monotonic time in msec$/;"	p	signature:()
+timeGetOldLongTime	utils/longtime.c	/^_longtime timeGetOldLongTime()$/;"	f
+timeGetOldLongTime	utils/longtime.h	/^_longtime timeGetOldLongTime();			\/\/ get time in usec$/;"	p	signature:()
+timeGetSec	utils/longtime.c	/^unsigned long timeGetSec( _longtime t )$/;"	f	signature:( _longtime t )
+timeGetSec	utils/longtime.h	/^unsigned long timeGetSec( _longtime t );$/;"	p	signature:( _longtime t )
+timeGetUSec	utils/longtime.c	/^unsigned long timeGetUSec( _longtime t )$/;"	f	signature:( _longtime t )
+timeGetUSec	utils/longtime.h	/^unsigned long timeGetUSec( _longtime t );$/;"	p	signature:( _longtime t )
+timeLongTimeFromCTM	utils/longtime.c	/^_longtime timeLongTimeFromCTM( PCTM ctm )$/;"	f	signature:( PCTM ctm )
+timeLongTimeFromCTM	utils/longtime.h	/^_longtime timeLongTimeFromCTM( PCTM pctm );$/;"	p	signature:( PCTM pctm )
+timeLongTimeFromTime	utils/longtime.c	/^_longtime timeLongTimeFromTime( time_t t )$/;"	f	signature:( time_t t )
+timeLongTimeFromTime	utils/longtime.h	/^_longtime timeLongTimeFromTime( time_t t );$/;"	p	signature:( time_t t )
+timeLongTimeToCTM	utils/longtime.c	/^void timeLongTimeToCTM( _longtime lt, PCTM ctm )$/;"	f	signature:( _longtime lt, PCTM ctm )
+timeLongTimeToCTM	utils/longtime.h	/^void timeLongTimeToCTM( _longtime lt, PCTM pctm );$/;"	p	signature:( _longtime lt, PCTM pctm )
+timeLongTimeToTime	utils/longtime.c	/^time_t timeLongTimeToTime( _longtime t )$/;"	f	signature:( _longtime t )
+timeLongTimeToTime	utils/longtime.h	/^time_t timeLongTimeToTime( _longtime t );$/;"	p	signature:( _longtime t )
+time_stamp	simserver.c	/^static const char* time_stamp()$/;"	f	file:
+timer_server_fxc	utils/utils_timer.c	/^static void *timer_server_fxc(void *lparam)$/;"	f	file:	signature:(void *lparam)
+timezone	utils/longtime.c	/^struct timezone {$/;"	s	file:
+timezone::tz_dsttime	utils/longtime.c	/^    int  tz_dsttime;     \/* type of dst correction *\/$/;"	m	struct:timezone	file:	access:public
+timezone::tz_minuteswest	utils/longtime.c	/^    int  tz_minuteswest; \/* minutes W of Greenwich *\/$/;"	m	struct:timezone	file:	access:public
+tmpdump	utils/utils_file.c	/^int tmpdump( FILE* dest, FILE* src )$/;"	f	signature:( FILE* dest, FILE* src )
+tmpdump	utils/utils_file.h	/^extern int tmpdump( FILE* dest, FILE* src );$/;"	p	signature:( FILE* dest, FILE* src )
+tmpdumpfd	utils/utils_file.c	/^int tmpdumpfd( int fd, FILE* src )$/;"	f	signature:( int fd, FILE* src )
+tmpdumpfd	utils/utils_file.h	/^extern int tmpdumpfd( int fd, FILE* src );$/;"	p	signature:( int fd, FILE* src )
+tmr_entry	utils/utils_timer.c	/^} tmr_entry;$/;"	t	typeref:struct:__anon4	file:
+tmr_find	utils/utils_timer.c	/^static int tmr_find(int id)$/;"	f	file:	signature:(int id)
+tmr_hander	utils/utils_timer.h	/^typedef void (*tmr_hander)(int id);$/;"	t
+tmr_insert	utils/utils_timer.c	/^static void tmr_insert( tmr_entry *entry)$/;"	f	file:	signature:( tmr_entry *entry)
+tmr_list	utils/utils_timer.c	/^static PtrList		tmr_list = PTRLIST_INITIALIZER;$/;"	v	file:
+tmr_thread	utils/utils_timer.c	/^static pthread_t	tmr_thread;$/;"	v	file:
+to_b64	utils/utils_str.c	/^static const char* to_b64 =$/;"	v	file:
+total_respawn	rw_main.c	/^	int			total_respawn;			\/\/ total number of respawn $/;"	m	struct:__anon1	file:	access:public
+touch_file	utils/utils_file.c	/^int touch_file( const char *path )$/;"	f	signature:( const char *path )
+touch_file	utils/utils_file.h	/^extern int touch_file( const char *path );$/;"	p	signature:( const char *path )
+trace_log	dpchwork.c	/^extern void trace_log(const char *fmt,...);$/;"	p	file:	signature:(const char *fmt,...)
+trace_log	simserver.c	/^void trace_log(const char *fmt,...)$/;"	f	signature:(const char *fmt,...)
+trace_response	utils/utils_http.c	/^static int trace_response = 0;$/;"	v	file:
+trim	utils/utils_str.c	/^char* trim( char *str )$/;"	f	signature:( char *str )
+trim	utils/utils_str.h	/^extern char* trim( char *str );$/;"	p	signature:( char *str )
+tv_sub	simpleping.c	/^static void tv_sub(struct timeval *out,struct timeval *in)$/;"	f	file:	signature:(struct timeval *out,struct timeval *in)
+tv_sub	simpleping.c	/^static void tv_sub(struct timeval *out,struct timeval *in);$/;"	p	file:	signature:(struct timeval *out,struct timeval *in)
+tvrecv	simpleping.c	/^static struct timeval tvrecv;$/;"	v	typeref:struct:timeval	file:
+tz_dsttime	utils/longtime.c	/^    int  tz_dsttime;     \/* type of dst correction *\/$/;"	m	struct:timezone	file:	access:public
+tz_minuteswest	utils/longtime.c	/^    int  tz_minuteswest; \/* minutes W of Greenwich *\/$/;"	m	struct:timezone	file:	access:public
+uc	utils/utils_gbutf8.c	/^	unsigned short uc;$/;"	m	struct:__anon8	file:	access:public
+unit_cmp	utils/utils_conf.c	/^static int unit_cmp( void * ptr1, void *ptr2 )$/;"	f	file:	signature:( void * ptr1, void *ptr2 )
+unpack	simpleping.c	/^static int unpack(char *buf,int len)$/;"	f	file:	signature:(char *buf,int len)
+unpack	simpleping.c	/^static int unpack(char *buf,int len);$/;"	p	file:	signature:(char *buf,int len)
+val	utils/utils_shm.c	/^             int val;                  \/* value for SETVAL *\/$/;"	m	union:semun	file:	access:public
+value	simserver.c	/^	char value[128];$/;"	m	struct:__anon2	file:	access:public
+value	utils/utils_ptrlist.h	/^	char *value;$/;"	m	struct:tagStrStrPair	access:public
+w_cond	utils/utils_timer.c	/^static pthread_cond_t		w_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+w_lock	utils/utils_timer.c	/^static pthread_mutex_t	w_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+wait_flushed	utils/dbg_printf.c	/^static int wait_flushed = 0;$/;"	v	file:
+waitfor	rw_main.c	/^void waitfor( int msec )$/;"	f	signature:( int msec )
+work_thread	dpchwork.c	/^static void *work_thread( void *arg )$/;"	f	file:	signature:( void *arg )
+write_config	simserver.c	/^static int write_config()$/;"	f	file:
+write_pid	simserver.c	/^static int write_pid(int pid)$/;"	f	file:	signature:(int pid)
+write_time	utils/rtcsync.c	/^static int write_time(rtc_time *rtc_data)$/;"	f	file:	signature:(rtc_time *rtc_data)
+yday	utils/rtcsync.c	/^      TIME_UNIT  yday;$/;"	m	struct:RTC_T	file:	access:public
+year	utils/longtime.h	/^	int	year;			\/\/ western calendar year 4 digit$/;"	m	struct:__anon6	access:public
+year	utils/rtcsync.c	/^      TIME_UNIT  year;$/;"	m	struct:RTC_T	file:	access:public

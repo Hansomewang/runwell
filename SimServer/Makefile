@@ -24,6 +24,7 @@ LD_LIB=-L. -lpthread -lrt
 # add 
 HEAD_DIR=-I../utils -g -Wall
 TIME_FLAGS=
+CFLAGS += -D hi3520
 CC=arm-hisiv100nptl-linux-gcc
 
 all: $(TARGET)
@@ -34,7 +35,7 @@ $(TARGET) : $(OBJ)
 	@cp -vf $(TARGET) $(ReleaseFile)
 	
 $(OBJ) : %.o:%.c
-	$(CC) $(HEAD_DIR) $(TIME_FLAGS) -D$(PLATFORM) -o $@ -c $^
+	$(CC) $(CFLAGS) $(HEAD_DIR) $(TIME_FLAGS) -D$(PLATFORM) -o $@ -c $^
 	
 cc:
 	@rm $(OBJ)

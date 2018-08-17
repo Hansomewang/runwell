@@ -250,7 +250,7 @@ static int sim_node_exist()
 {
 	char *ppp_dev = NULL;
 #ifdef CHIP_3520
-	ppp_dev = "/dev/ttyUSB3";
+	ppp_dev = "/dev/ttyUSB2";
 #elif defined CHIP_3531
 	ppp_dev = "/dev/ttyUSB3";
 #endif	
@@ -436,29 +436,79 @@ int dpch_exit();
 int dhcp_init( const char *inter );
 int dhcp_wakeup( int enable );
 
+static char *get_string(char *path)
+{
+	char buf[2048], *ptr;
+	FILE *fp = fopen( path, "r+" );
+    char str[13];
 
-static void set_sim_node()
+	long offset;
+	int len = fread( buf, 1, sizeof(buf), fp );
+	buf[len] = '\0';
+	if ( (ptr=strstr( buf, "/dev/ttyUSB" )) != NULL) 
+	{
+        memcpy( str, ptr, 12 );
+        str[12] = '\0';
+	}
+	fclose( fp );
+	return str;
+    
+}
+
+static int set_sim_node()
 {
 	char *path = "/etc/ppp/peers/wcdma";
-	char *str_old = "/dev/ttyUSB2";
-	char *qcqmi = "/dev/qcqmi*";
-	char *ppp_dev6 = "/dev/ttyUSB6";
-
+	char *qcqmi = "/dev/qcqmi3";
 	char *str_new = NULL;
+	DIR *dirptr=NULL;         
+    struct dirent *entry;         
+	char str_old[13];
 
-	if( access( qcqmi, F_OK ) == 0 )
-	 {
-		 printf("find qcqmi* node  repleace /dev/ttyUSB1 \n ");
-		 str_new = "/dev/ttyUSB1";
-		 file_replace_str(path, str_old, str_new, 0);
-	 }
-	 else if( access( ppp_dev6 , F_OK ) == 0 )
-	 {
-		 printf("find ttyUSB6 node  repleace /dev/ttyUSB4 \n ");
-		 str_new = "/dev/ttyUSB4";
-		 file_replace_str(path, str_old, str_new, 0);
-	 }
+    sprintf(str_old, "%s", get_string( path ));
+    printf("str_old = %s \n", str_old);
 
+    /*have /dev/qcqmi or not*/
+    if((dirptr = opendir("/dev/"))==NULL)        
+    {         
+	    printf("opendir failed!");         
+	    return 0;         
+    }         
+    else        
+    {         
+	    while(entry=readdir(dirptr))         
+	    {         
+            if( strstr( entry->d_name, "qcqmi" ) )
+            {
+                printf("\nfind qcqmi* node \n ");
+                if( access( "/dev/ttyUSB4", F_OK ) == 0 )
+                {
+                    printf("find node /dev/ttyUSB4\n");
+                    file_replace_str(path, str_old, "/dev/ttyUSB3", 0);
+                    return 1;
+                }
+                else
+                {
+                    printf("not find /dev/ttyUSB4 \n");
+                    file_replace_str(path, str_old, "/dev/ttyUSB1", 0);
+                    return 1;
+                }
+            }
+	    }         
+	    closedir(dirptr);         
+    }
+
+	 if( access( "/dev/ttyUSB7" , F_OK ) == 0 )
+	 {
+		 printf("find ttyUSB7 node  repleace /dev/ttyUSB4 \n ");
+		 file_replace_str(path, str_old, "/dev/ttyUSB4", 0);
+         return 1;
+	 }
+     else if( access( "/dev/ttyUSB5" , F_OK ) == 0 )
+     {
+         printf("find ttyUSB5 node  repleace /dev/ttyUSB2 \n ");
+         file_replace_str(path, str_old, "/dev/ttyUSB2", 0);
+         return 1;
+     }
 }
 
 void RW_Main()
@@ -499,7 +549,7 @@ void RW_Main()
 		{
 			// 当存在pppd节点后开始启动pppd服务，给5秒启动时间
 			trace_log("Call PPPD!");
-			
+
 		#ifdef CHIP_3520
 			set_sim_node();
 		#endif

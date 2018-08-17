@@ -203,6 +203,7 @@ int file_replace_str( const char *path, const char *str_old, const char *str_new
 		if ( (!bcaseignore && (ptr=strstr( buf, str_old )) != NULL) ||
 			   (bcaseignore && (ptr=strcasestr( buf, str_old )) != NULL) )
 		{
+            printf("enter file_replace_str\n");
 			rewind( fp );
 			fwrite( buf, 1, ptr-buf, fp );
 			fwrite( str_new, 1, strlen(str_new), fp );
